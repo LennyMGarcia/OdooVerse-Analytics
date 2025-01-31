@@ -71,7 +71,7 @@ class CustomAPI(http.Controller):
                 user_image = ''
                 if crm.contact_name:
                     cleaned_name = bytes(crm.contact_name, "utf-8").decode("unicode_escape")
-                    user_image = f'<img src="file:///C:/Users/User/Downloads/imgs{cleaned_name}.jpg" />'
+                    user_image = f'C:/Users/User/Downloads/imgs{cleaned_name}.jpg'
 
                 crm_data.append({
                     'lead_id': crm.id,
@@ -103,7 +103,8 @@ class CustomAPI(http.Controller):
             for country in countries:
             
                 country_data.append({
-                    'code': country.id,
+                    'id': country.id,
+                    'code': country.code,
                     'name': country.name,
                 })
 
@@ -132,12 +133,12 @@ class CustomAPI(http.Controller):
                     cleaned_name = re.sub(r'[^\w\s-]', '', product.name).strip()
                     cleaned_name = cleaned_name.replace(' ', '_')  
                     
-                    product_image = f'<img src="file:///C:/Users/User/Downloads/imgs/{cleaned_name}.jpg" />'
+                    product_image = f'C:/Users/User/Downloads/imgs/{cleaned_name}.jpg'
 
                 product_data.append({
                     'id': product.id,
                     'name': product.name,
-                    'image_html': product_image
+                    'image_route': product_image
                 })
 
             return http.Response(json.dumps({'Products': product_data}, indent=4), content_type="application/json", status=200)
@@ -191,11 +192,9 @@ class CustomAPI(http.Controller):
     def is_valid_api_key(self, api_key):
         #API_KEY_1 = os.getenv('ODOO_API_KEY')
         valid_api_keys = [
-            "bd1d5c433d13df65e2d4f41e1cd28053667db67e",
+            "bd1d5c433d13df65e2d4f41e1cd28053667db67e", #Don't do this
         ]
 
         if api_key in valid_api_keys:
             return True
         return False
-
-
