@@ -1,12 +1,22 @@
 from odoo import http
 from odoo.http import request
+#from dotenv import load_dotenv
+import os
 import json
 import uuid
 import re
 
+#load_dotenv(os.path.join(os.path.dirname(__file__), '../.env'))
+
+
 class CustomAPI(http.Controller):
-    @http.route('/api/sales', auth='user', type='http', methods=['GET'])
+
+    @http.route('/api/sales', auth='public', type='http', methods=['GET'])
     def get_sales(self, **kwargs):
+        user = self.authenticate_api()
+        if isinstance(user, http.Response):  
+            return user
+        
         try:
             sales_orders = request.env['sale.order'].sudo().search([])
 
@@ -46,8 +56,12 @@ class CustomAPI(http.Controller):
         except Exception as e:
             return http.Response(json.dumps({'error': str(e)}), content_type="application/json", status=500)
     
-    @http.route('/api/crm', auth='user', type='http', methods=['GET'])
+    @http.route('/api/crm', auth='public', type='http', methods=['GET'])
     def get_crm(self, **kwargs):
+        user = self.authenticate_api()
+        if isinstance(user, http.Response):  
+            return user
+        
         try:
             crm_s = request.env['crm.lead'].sudo().search([])
 
@@ -75,8 +89,12 @@ class CustomAPI(http.Controller):
             return http.Response(json.dumps({'error': str(e)}), content_type="application/json", status=500)
         
 
-    @http.route('/api/country', auth='user', type='http', methods=['GET'])
+    @http.route('/api/country', auth='public', type='http', methods=['GET'])
     def get_country(self, **kwargs):
+        user = self.authenticate_api()
+        if isinstance(user, http.Response):  
+            return user
+        
         try:
             countries = request.env['res.country'].sudo().search([])
 
@@ -95,8 +113,12 @@ class CustomAPI(http.Controller):
             return http.Response(json.dumps({'error': str(e)}), content_type="application/json", status=500)
         
 
-    @http.route('/api/products', auth='user', type='http', methods=['GET'])
+    @http.route('/api/products', auth='public', type='http', methods=['GET'])
     def get_products(self, **kwargs):
+        user = self.authenticate_api()
+        if isinstance(user, http.Response):  
+            return user
+        
         try:
             products = request.env['product.product'].sudo().search([])
 
@@ -155,5 +177,25 @@ class CustomAPI(http.Controller):
 
         except Exception as e:
             return http.Response(json.dumps({'error': str(e)}), content_type="application/json", status=500)
+        
+    def authenticate_api(self):
+        api_key = request.httprequest.headers.get('Authorization')
+
+        if not api_key or not api_key.startswith("ApiKey "):
+            return False 
+
+        api_key = api_key[7:]
+
+        return self.is_valid_api_key(api_key)
+
+    def is_valid_api_key(self, api_key):
+        #API_KEY_1 = os.getenv('ODOO_API_KEY')
+        valid_api_keys = [
+            "bd1d5c433d13df65e2d4f41e1cd28053667db67e",
+        ]
+
+        if api_key in valid_api_keys:
+            return True
+        return False
 
 
