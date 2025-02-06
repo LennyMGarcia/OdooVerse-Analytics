@@ -1,0 +1,2141 @@
+@prefix ns1: <http://odoollm.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:CRM_10 a ns1:CRM ;
+    ns1:hasContact "Humberto Marcebo" ;
+    ns1:hasContactName "Humberto Marcebo's opportunity" ;
+    ns1:hasEmail "humbertom@gmail.com" ;
+    ns1:hasImage "C:/Users/User/Downloads/imgsHumberto Marcebo.jpg" ;
+    ns1:hasPhone "8292014657" ;
+    ns1:hasStage "Qualified" .
+
+ns1:CRM_11 a ns1:CRM ;
+    ns1:hasContact "Lilianna Perez" ;
+    ns1:hasContactName "Lilianna Perez's opportunity" ;
+    ns1:hasEmail "lilperez@gmail.com" ;
+    ns1:hasImage "C:/Users/User/Downloads/imgsLilianna Perez.jpg" ;
+    ns1:hasPhone "8296452222" ;
+    ns1:hasStage "Qualified" .
+
+ns1:CRM_12 a ns1:CRM ;
+    ns1:hasContact "Milena Garcia" ;
+    ns1:hasContactName "Milena Garcia's opportunity" ;
+    ns1:hasEmail "milenag@gmail.com" ;
+    ns1:hasImage "C:/Users/User/Downloads/imgsMilena Garcia.jpg" ;
+    ns1:hasPhone "8291112312" ;
+    ns1:hasStage "Won" .
+
+ns1:CRM_2 a ns1:CRM ;
+    ns1:hasContact "Brandon Freeman" ;
+    ns1:hasContactName "Product Pricing" ;
+    ns1:hasEmail "hola@gmail.com" ;
+    ns1:hasImage "C:/Users/User/Downloads/imgsBrandon Freeman.jpg" ;
+    ns1:hasPhone "8291567813" ;
+    ns1:hasStage "Proposition" .
+
+ns1:CRM_3 a ns1:CRM ;
+    ns1:hasContact "Lunch Supplier" ;
+    ns1:hasContactName "Lunch Supplier's opportunity" ;
+    ns1:hasEmail "luncher@gmail.com" ;
+    ns1:hasImage "C:/Users/User/Downloads/imgsLunch Supplier.jpg" ;
+    ns1:hasPhone "8298599543" ;
+    ns1:hasStage "Won" .
+
+ns1:CRM_4 a ns1:CRM ;
+    ns1:hasContact "Joshua Barom" ;
+    ns1:hasContactName "Joshua Barom's opportunity" ;
+    ns1:hasEmail "joshuams@hotmail.com" ;
+    ns1:hasImage "C:/Users/User/Downloads/imgsJoshua Barom.jpg" ;
+    ns1:hasPhone "8295547832" ;
+    ns1:hasStage "New" .
+
+ns1:CRM_6 a ns1:CRM ;
+    ns1:hasContact "Jordana Alphy" ;
+    ns1:hasContactName "Jordana Alphy's opportunity" ;
+    ns1:hasEmail "jordanlp@gmail.com" ;
+    ns1:hasImage "C:/Users/User/Downloads/imgsJordana Alphy.jpg" ;
+    ns1:hasPhone "8295473692" ;
+    ns1:hasStage "Qualified" .
+
+ns1:CRM_7 a ns1:CRM ;
+    ns1:hasContact "Kendry Murkan" ;
+    ns1:hasContactName "Kendry Murkan's opportunity" ;
+    ns1:hasEmail "kendrym@gmail.com" ;
+    ns1:hasImage "C:/Users/User/Downloads/imgsKendry Murkan.jpg" ;
+    ns1:hasPhone "8496544561" ;
+    ns1:hasStage "Proposition" .
+
+ns1:CRM_8 a ns1:CRM ;
+    ns1:hasContact "Mylan Ramos" ;
+    ns1:hasContactName "Mylan Ramos's opportunity" ;
+    ns1:hasEmail "mylanr@gmail.com" ;
+    ns1:hasImage "C:/Users/User/Downloads/imgsMylan Ramos.jpg" ;
+    ns1:hasPhone "8296572014" ;
+    ns1:hasStage "Qualified" .
+
+ns1:CRM_9 a ns1:CRM ;
+    ns1:hasContact "Administrator" ;
+    ns1:hasContactName "Lenny Manuel Garcia" ;
+    ns1:hasEmail "Lennymgr27@gmail.com" ;
+    ns1:hasImage "C:/Users/User/Downloads/imgsAdministrator.jpg" ;
+    ns1:hasPhone "8296579686" ;
+    ns1:hasStage "New" .
+
+ns1:Country_1 a ns1:Country ;
+    ns1:hasCountryCode "AD" ;
+    ns1:hasCountryName "Andorra" .
+
+ns1:Country_10 a ns1:Country ;
+    ns1:hasCountryCode "AR" ;
+    ns1:hasCountryName "Argentina" .
+
+ns1:Country_100 a ns1:Country ;
+    ns1:hasCountryCode "ID" ;
+    ns1:hasCountryName "Indonesia" .
+
+ns1:Country_101 a ns1:Country ;
+    ns1:hasCountryCode "IE" ;
+    ns1:hasCountryName "Ireland" .
+
+ns1:Country_102 a ns1:Country ;
+    ns1:hasCountryCode "IL" ;
+    ns1:hasCountryName "Israel" .
+
+ns1:Country_103 a ns1:Country ;
+    ns1:hasCountryCode "IM" ;
+    ns1:hasCountryName "Isle of Man" .
+
+ns1:Country_104 a ns1:Country ;
+    ns1:hasCountryCode "IN" ;
+    ns1:hasCountryName "India" .
+
+ns1:Country_105 a ns1:Country ;
+    ns1:hasCountryCode "IO" ;
+    ns1:hasCountryName "British Indian Ocean Territory" .
+
+ns1:Country_106 a ns1:Country ;
+    ns1:hasCountryCode "IQ" ;
+    ns1:hasCountryName "Iraq" .
+
+ns1:Country_107 a ns1:Country ;
+    ns1:hasCountryCode "IR" ;
+    ns1:hasCountryName "Iran" .
+
+ns1:Country_108 a ns1:Country ;
+    ns1:hasCountryCode "IS" ;
+    ns1:hasCountryName "Iceland" .
+
+ns1:Country_109 a ns1:Country ;
+    ns1:hasCountryCode "IT" ;
+    ns1:hasCountryName "Italy" .
+
+ns1:Country_11 a ns1:Country ;
+    ns1:hasCountryCode "AS" ;
+    ns1:hasCountryName "American Samoa" .
+
+ns1:Country_110 a ns1:Country ;
+    ns1:hasCountryCode "JE" ;
+    ns1:hasCountryName "Jersey" .
+
+ns1:Country_111 a ns1:Country ;
+    ns1:hasCountryCode "JM" ;
+    ns1:hasCountryName "Jamaica" .
+
+ns1:Country_112 a ns1:Country ;
+    ns1:hasCountryCode "JO" ;
+    ns1:hasCountryName "Jordan" .
+
+ns1:Country_113 a ns1:Country ;
+    ns1:hasCountryCode "JP" ;
+    ns1:hasCountryName "Japan" .
+
+ns1:Country_114 a ns1:Country ;
+    ns1:hasCountryCode "KE" ;
+    ns1:hasCountryName "Kenya" .
+
+ns1:Country_115 a ns1:Country ;
+    ns1:hasCountryCode "KG" ;
+    ns1:hasCountryName "Kyrgyzstan" .
+
+ns1:Country_116 a ns1:Country ;
+    ns1:hasCountryCode "KH" ;
+    ns1:hasCountryName "Cambodia" .
+
+ns1:Country_117 a ns1:Country ;
+    ns1:hasCountryCode "KI" ;
+    ns1:hasCountryName "Kiribati" .
+
+ns1:Country_118 a ns1:Country ;
+    ns1:hasCountryCode "KM" ;
+    ns1:hasCountryName "Comoros" .
+
+ns1:Country_119 a ns1:Country ;
+    ns1:hasCountryCode "KN" ;
+    ns1:hasCountryName "Saint Kitts and Nevis" .
+
+ns1:Country_12 a ns1:Country ;
+    ns1:hasCountryCode "AT" ;
+    ns1:hasCountryName "Austria" .
+
+ns1:Country_120 a ns1:Country ;
+    ns1:hasCountryCode "KP" ;
+    ns1:hasCountryName "North Korea" .
+
+ns1:Country_121 a ns1:Country ;
+    ns1:hasCountryCode "KR" ;
+    ns1:hasCountryName "South Korea" .
+
+ns1:Country_122 a ns1:Country ;
+    ns1:hasCountryCode "KW" ;
+    ns1:hasCountryName "Kuwait" .
+
+ns1:Country_123 a ns1:Country ;
+    ns1:hasCountryCode "KY" ;
+    ns1:hasCountryName "Cayman Islands" .
+
+ns1:Country_124 a ns1:Country ;
+    ns1:hasCountryCode "KZ" ;
+    ns1:hasCountryName "Kazakhstan" .
+
+ns1:Country_125 a ns1:Country ;
+    ns1:hasCountryCode "LA" ;
+    ns1:hasCountryName "Laos" .
+
+ns1:Country_126 a ns1:Country ;
+    ns1:hasCountryCode "LB" ;
+    ns1:hasCountryName "Lebanon" .
+
+ns1:Country_127 a ns1:Country ;
+    ns1:hasCountryCode "LC" ;
+    ns1:hasCountryName "Saint Lucia" .
+
+ns1:Country_128 a ns1:Country ;
+    ns1:hasCountryCode "LI" ;
+    ns1:hasCountryName "Liechtenstein" .
+
+ns1:Country_129 a ns1:Country ;
+    ns1:hasCountryCode "LK" ;
+    ns1:hasCountryName "Sri Lanka" .
+
+ns1:Country_13 a ns1:Country ;
+    ns1:hasCountryCode "AU" ;
+    ns1:hasCountryName "Australia" .
+
+ns1:Country_130 a ns1:Country ;
+    ns1:hasCountryCode "LR" ;
+    ns1:hasCountryName "Liberia" .
+
+ns1:Country_131 a ns1:Country ;
+    ns1:hasCountryCode "LS" ;
+    ns1:hasCountryName "Lesotho" .
+
+ns1:Country_132 a ns1:Country ;
+    ns1:hasCountryCode "LT" ;
+    ns1:hasCountryName "Lithuania" .
+
+ns1:Country_133 a ns1:Country ;
+    ns1:hasCountryCode "LU" ;
+    ns1:hasCountryName "Luxembourg" .
+
+ns1:Country_134 a ns1:Country ;
+    ns1:hasCountryCode "LV" ;
+    ns1:hasCountryName "Latvia" .
+
+ns1:Country_135 a ns1:Country ;
+    ns1:hasCountryCode "LY" ;
+    ns1:hasCountryName "Libya" .
+
+ns1:Country_136 a ns1:Country ;
+    ns1:hasCountryCode "MA" ;
+    ns1:hasCountryName "Morocco" .
+
+ns1:Country_137 a ns1:Country ;
+    ns1:hasCountryCode "MC" ;
+    ns1:hasCountryName "Monaco" .
+
+ns1:Country_138 a ns1:Country ;
+    ns1:hasCountryCode "MD" ;
+    ns1:hasCountryName "Moldova" .
+
+ns1:Country_139 a ns1:Country ;
+    ns1:hasCountryCode "ME" ;
+    ns1:hasCountryName "Montenegro" .
+
+ns1:Country_14 a ns1:Country ;
+    ns1:hasCountryCode "AW" ;
+    ns1:hasCountryName "Aruba" .
+
+ns1:Country_140 a ns1:Country ;
+    ns1:hasCountryCode "MF" ;
+    ns1:hasCountryName "Saint Martin (French part)" .
+
+ns1:Country_141 a ns1:Country ;
+    ns1:hasCountryCode "MG" ;
+    ns1:hasCountryName "Madagascar" .
+
+ns1:Country_142 a ns1:Country ;
+    ns1:hasCountryCode "MH" ;
+    ns1:hasCountryName "Marshall Islands" .
+
+ns1:Country_143 a ns1:Country ;
+    ns1:hasCountryCode "MK" ;
+    ns1:hasCountryName "North Macedonia" .
+
+ns1:Country_144 a ns1:Country ;
+    ns1:hasCountryCode "ML" ;
+    ns1:hasCountryName "Mali" .
+
+ns1:Country_145 a ns1:Country ;
+    ns1:hasCountryCode "MM" ;
+    ns1:hasCountryName "Myanmar" .
+
+ns1:Country_146 a ns1:Country ;
+    ns1:hasCountryCode "MN" ;
+    ns1:hasCountryName "Mongolia" .
+
+ns1:Country_147 a ns1:Country ;
+    ns1:hasCountryCode "MO" ;
+    ns1:hasCountryName "Macau" .
+
+ns1:Country_148 a ns1:Country ;
+    ns1:hasCountryCode "MP" ;
+    ns1:hasCountryName "Northern Mariana Islands" .
+
+ns1:Country_149 a ns1:Country ;
+    ns1:hasCountryCode "MQ" ;
+    ns1:hasCountryName "Martinique" .
+
+ns1:Country_15 a ns1:Country ;
+    ns1:hasCountryCode "AX" ;
+    ns1:hasCountryName "Åland Islands" .
+
+ns1:Country_150 a ns1:Country ;
+    ns1:hasCountryCode "MR" ;
+    ns1:hasCountryName "Mauritania" .
+
+ns1:Country_151 a ns1:Country ;
+    ns1:hasCountryCode "MS" ;
+    ns1:hasCountryName "Montserrat" .
+
+ns1:Country_152 a ns1:Country ;
+    ns1:hasCountryCode "MT" ;
+    ns1:hasCountryName "Malta" .
+
+ns1:Country_153 a ns1:Country ;
+    ns1:hasCountryCode "MU" ;
+    ns1:hasCountryName "Mauritius" .
+
+ns1:Country_154 a ns1:Country ;
+    ns1:hasCountryCode "MV" ;
+    ns1:hasCountryName "Maldives" .
+
+ns1:Country_155 a ns1:Country ;
+    ns1:hasCountryCode "MW" ;
+    ns1:hasCountryName "Malawi" .
+
+ns1:Country_156 a ns1:Country ;
+    ns1:hasCountryCode "MX" ;
+    ns1:hasCountryName "Mexico" .
+
+ns1:Country_157 a ns1:Country ;
+    ns1:hasCountryCode "MY" ;
+    ns1:hasCountryName "Malaysia" .
+
+ns1:Country_158 a ns1:Country ;
+    ns1:hasCountryCode "MZ" ;
+    ns1:hasCountryName "Mozambique" .
+
+ns1:Country_159 a ns1:Country ;
+    ns1:hasCountryCode "NA" ;
+    ns1:hasCountryName "Namibia" .
+
+ns1:Country_16 a ns1:Country ;
+    ns1:hasCountryCode "AZ" ;
+    ns1:hasCountryName "Azerbaijan" .
+
+ns1:Country_160 a ns1:Country ;
+    ns1:hasCountryCode "NC" ;
+    ns1:hasCountryName "New Caledonia" .
+
+ns1:Country_161 a ns1:Country ;
+    ns1:hasCountryCode "NE" ;
+    ns1:hasCountryName "Niger" .
+
+ns1:Country_162 a ns1:Country ;
+    ns1:hasCountryCode "NF" ;
+    ns1:hasCountryName "Norfolk Island" .
+
+ns1:Country_163 a ns1:Country ;
+    ns1:hasCountryCode "NG" ;
+    ns1:hasCountryName "Nigeria" .
+
+ns1:Country_164 a ns1:Country ;
+    ns1:hasCountryCode "NI" ;
+    ns1:hasCountryName "Nicaragua" .
+
+ns1:Country_165 a ns1:Country ;
+    ns1:hasCountryCode "NL" ;
+    ns1:hasCountryName "Netherlands" .
+
+ns1:Country_166 a ns1:Country ;
+    ns1:hasCountryCode "NO" ;
+    ns1:hasCountryName "Norway" .
+
+ns1:Country_167 a ns1:Country ;
+    ns1:hasCountryCode "NP" ;
+    ns1:hasCountryName "Nepal" .
+
+ns1:Country_168 a ns1:Country ;
+    ns1:hasCountryCode "NR" ;
+    ns1:hasCountryName "Nauru" .
+
+ns1:Country_169 a ns1:Country ;
+    ns1:hasCountryCode "NU" ;
+    ns1:hasCountryName "Niue" .
+
+ns1:Country_17 a ns1:Country ;
+    ns1:hasCountryCode "BA" ;
+    ns1:hasCountryName "Bosnia and Herzegovina" .
+
+ns1:Country_170 a ns1:Country ;
+    ns1:hasCountryCode "NZ" ;
+    ns1:hasCountryName "New Zealand" .
+
+ns1:Country_171 a ns1:Country ;
+    ns1:hasCountryCode "OM" ;
+    ns1:hasCountryName "Oman" .
+
+ns1:Country_172 a ns1:Country ;
+    ns1:hasCountryCode "PA" ;
+    ns1:hasCountryName "Panama" .
+
+ns1:Country_173 a ns1:Country ;
+    ns1:hasCountryCode "PE" ;
+    ns1:hasCountryName "Peru" .
+
+ns1:Country_174 a ns1:Country ;
+    ns1:hasCountryCode "PF" ;
+    ns1:hasCountryName "French Polynesia" .
+
+ns1:Country_175 a ns1:Country ;
+    ns1:hasCountryCode "PG" ;
+    ns1:hasCountryName "Papua New Guinea" .
+
+ns1:Country_176 a ns1:Country ;
+    ns1:hasCountryCode "PH" ;
+    ns1:hasCountryName "Philippines" .
+
+ns1:Country_177 a ns1:Country ;
+    ns1:hasCountryCode "PK" ;
+    ns1:hasCountryName "Pakistan" .
+
+ns1:Country_178 a ns1:Country ;
+    ns1:hasCountryCode "PL" ;
+    ns1:hasCountryName "Poland" .
+
+ns1:Country_179 a ns1:Country ;
+    ns1:hasCountryCode "PM" ;
+    ns1:hasCountryName "Saint Pierre and Miquelon" .
+
+ns1:Country_18 a ns1:Country ;
+    ns1:hasCountryCode "BB" ;
+    ns1:hasCountryName "Barbados" .
+
+ns1:Country_180 a ns1:Country ;
+    ns1:hasCountryCode "PN" ;
+    ns1:hasCountryName "Pitcairn Islands" .
+
+ns1:Country_181 a ns1:Country ;
+    ns1:hasCountryCode "PR" ;
+    ns1:hasCountryName "Puerto Rico" .
+
+ns1:Country_182 a ns1:Country ;
+    ns1:hasCountryCode "PS" ;
+    ns1:hasCountryName "State of Palestine" .
+
+ns1:Country_183 a ns1:Country ;
+    ns1:hasCountryCode "PT" ;
+    ns1:hasCountryName "Portugal" .
+
+ns1:Country_184 a ns1:Country ;
+    ns1:hasCountryCode "PW" ;
+    ns1:hasCountryName "Palau" .
+
+ns1:Country_185 a ns1:Country ;
+    ns1:hasCountryCode "PY" ;
+    ns1:hasCountryName "Paraguay" .
+
+ns1:Country_186 a ns1:Country ;
+    ns1:hasCountryCode "QA" ;
+    ns1:hasCountryName "Qatar" .
+
+ns1:Country_187 a ns1:Country ;
+    ns1:hasCountryCode "RE" ;
+    ns1:hasCountryName "Réunion" .
+
+ns1:Country_188 a ns1:Country ;
+    ns1:hasCountryCode "RO" ;
+    ns1:hasCountryName "Romania" .
+
+ns1:Country_189 a ns1:Country ;
+    ns1:hasCountryCode "RS" ;
+    ns1:hasCountryName "Serbia" .
+
+ns1:Country_19 a ns1:Country ;
+    ns1:hasCountryCode "BD" ;
+    ns1:hasCountryName "Bangladesh" .
+
+ns1:Country_190 a ns1:Country ;
+    ns1:hasCountryCode "RU" ;
+    ns1:hasCountryName "Russian Federation" .
+
+ns1:Country_191 a ns1:Country ;
+    ns1:hasCountryCode "RW" ;
+    ns1:hasCountryName "Rwanda" .
+
+ns1:Country_192 a ns1:Country ;
+    ns1:hasCountryCode "SA" ;
+    ns1:hasCountryName "Saudi Arabia" .
+
+ns1:Country_193 a ns1:Country ;
+    ns1:hasCountryCode "SB" ;
+    ns1:hasCountryName "Solomon Islands" .
+
+ns1:Country_194 a ns1:Country ;
+    ns1:hasCountryCode "SC" ;
+    ns1:hasCountryName "Seychelles" .
+
+ns1:Country_195 a ns1:Country ;
+    ns1:hasCountryCode "SD" ;
+    ns1:hasCountryName "Sudan" .
+
+ns1:Country_196 a ns1:Country ;
+    ns1:hasCountryCode "SE" ;
+    ns1:hasCountryName "Sweden" .
+
+ns1:Country_197 a ns1:Country ;
+    ns1:hasCountryCode "SG" ;
+    ns1:hasCountryName "Singapore" .
+
+ns1:Country_198 a ns1:Country ;
+    ns1:hasCountryCode "SH" ;
+    ns1:hasCountryName "Saint Helena, Ascension and Tristan da Cunha" .
+
+ns1:Country_199 a ns1:Country ;
+    ns1:hasCountryCode "SI" ;
+    ns1:hasCountryName "Slovenia" .
+
+ns1:Country_2 a ns1:Country ;
+    ns1:hasCountryCode "AE" ;
+    ns1:hasCountryName "United Arab Emirates" .
+
+ns1:Country_20 a ns1:Country ;
+    ns1:hasCountryCode "BE" ;
+    ns1:hasCountryName "Belgium" .
+
+ns1:Country_200 a ns1:Country ;
+    ns1:hasCountryCode "SJ" ;
+    ns1:hasCountryName "Svalbard and Jan Mayen" .
+
+ns1:Country_201 a ns1:Country ;
+    ns1:hasCountryCode "SK" ;
+    ns1:hasCountryName "Slovakia" .
+
+ns1:Country_202 a ns1:Country ;
+    ns1:hasCountryCode "SL" ;
+    ns1:hasCountryName "Sierra Leone" .
+
+ns1:Country_203 a ns1:Country ;
+    ns1:hasCountryCode "SM" ;
+    ns1:hasCountryName "San Marino" .
+
+ns1:Country_204 a ns1:Country ;
+    ns1:hasCountryCode "SN" ;
+    ns1:hasCountryName "Senegal" .
+
+ns1:Country_205 a ns1:Country ;
+    ns1:hasCountryCode "SO" ;
+    ns1:hasCountryName "Somalia" .
+
+ns1:Country_206 a ns1:Country ;
+    ns1:hasCountryCode "SR" ;
+    ns1:hasCountryName "Suriname" .
+
+ns1:Country_207 a ns1:Country ;
+    ns1:hasCountryCode "SS" ;
+    ns1:hasCountryName "South Sudan" .
+
+ns1:Country_208 a ns1:Country ;
+    ns1:hasCountryCode "ST" ;
+    ns1:hasCountryName "São Tomé and Príncipe" .
+
+ns1:Country_209 a ns1:Country ;
+    ns1:hasCountryCode "SV" ;
+    ns1:hasCountryName "El Salvador" .
+
+ns1:Country_21 a ns1:Country ;
+    ns1:hasCountryCode "BF" ;
+    ns1:hasCountryName "Burkina Faso" .
+
+ns1:Country_210 a ns1:Country ;
+    ns1:hasCountryCode "SX" ;
+    ns1:hasCountryName "Sint Maarten (Dutch part)" .
+
+ns1:Country_211 a ns1:Country ;
+    ns1:hasCountryCode "SY" ;
+    ns1:hasCountryName "Syria" .
+
+ns1:Country_212 a ns1:Country ;
+    ns1:hasCountryCode "SZ" ;
+    ns1:hasCountryName "Eswatini" .
+
+ns1:Country_213 a ns1:Country ;
+    ns1:hasCountryCode "TC" ;
+    ns1:hasCountryName "Turks and Caicos Islands" .
+
+ns1:Country_214 a ns1:Country ;
+    ns1:hasCountryCode "TD" ;
+    ns1:hasCountryName "Chad" .
+
+ns1:Country_215 a ns1:Country ;
+    ns1:hasCountryCode "TF" ;
+    ns1:hasCountryName "French Southern Territories" .
+
+ns1:Country_216 a ns1:Country ;
+    ns1:hasCountryCode "TG" ;
+    ns1:hasCountryName "Togo" .
+
+ns1:Country_217 a ns1:Country ;
+    ns1:hasCountryCode "TH" ;
+    ns1:hasCountryName "Thailand" .
+
+ns1:Country_218 a ns1:Country ;
+    ns1:hasCountryCode "TJ" ;
+    ns1:hasCountryName "Tajikistan" .
+
+ns1:Country_219 a ns1:Country ;
+    ns1:hasCountryCode "TK" ;
+    ns1:hasCountryName "Tokelau" .
+
+ns1:Country_22 a ns1:Country ;
+    ns1:hasCountryCode "BG" ;
+    ns1:hasCountryName "Bulgaria" .
+
+ns1:Country_220 a ns1:Country ;
+    ns1:hasCountryCode "TM" ;
+    ns1:hasCountryName "Turkmenistan" .
+
+ns1:Country_221 a ns1:Country ;
+    ns1:hasCountryCode "TN" ;
+    ns1:hasCountryName "Tunisia" .
+
+ns1:Country_222 a ns1:Country ;
+    ns1:hasCountryCode "TO" ;
+    ns1:hasCountryName "Tonga" .
+
+ns1:Country_223 a ns1:Country ;
+    ns1:hasCountryCode "TL" ;
+    ns1:hasCountryName "Timor-Leste" .
+
+ns1:Country_224 a ns1:Country ;
+    ns1:hasCountryCode "TR" ;
+    ns1:hasCountryName "Türkiye" .
+
+ns1:Country_225 a ns1:Country ;
+    ns1:hasCountryCode "TT" ;
+    ns1:hasCountryName "Trinidad and Tobago" .
+
+ns1:Country_226 a ns1:Country ;
+    ns1:hasCountryCode "TV" ;
+    ns1:hasCountryName "Tuvalu" .
+
+ns1:Country_227 a ns1:Country ;
+    ns1:hasCountryCode "TW" ;
+    ns1:hasCountryName "Taiwan" .
+
+ns1:Country_228 a ns1:Country ;
+    ns1:hasCountryCode "TZ" ;
+    ns1:hasCountryName "Tanzania" .
+
+ns1:Country_229 a ns1:Country ;
+    ns1:hasCountryCode "UA" ;
+    ns1:hasCountryName "Ukraine" .
+
+ns1:Country_23 a ns1:Country ;
+    ns1:hasCountryCode "BH" ;
+    ns1:hasCountryName "Bahrain" .
+
+ns1:Country_230 a ns1:Country ;
+    ns1:hasCountryCode "UG" ;
+    ns1:hasCountryName "Uganda" .
+
+ns1:Country_231 a ns1:Country ;
+    ns1:hasCountryCode "GB" ;
+    ns1:hasCountryName "United Kingdom" .
+
+ns1:Country_232 a ns1:Country ;
+    ns1:hasCountryCode "UM" ;
+    ns1:hasCountryName "USA Minor Outlying Islands" .
+
+ns1:Country_233 a ns1:Country ;
+    ns1:hasCountryCode "US" ;
+    ns1:hasCountryName "United States" .
+
+ns1:Country_234 a ns1:Country ;
+    ns1:hasCountryCode "UY" ;
+    ns1:hasCountryName "Uruguay" .
+
+ns1:Country_235 a ns1:Country ;
+    ns1:hasCountryCode "UZ" ;
+    ns1:hasCountryName "Uzbekistan" .
+
+ns1:Country_236 a ns1:Country ;
+    ns1:hasCountryCode "VA" ;
+    ns1:hasCountryName "Holy See (Vatican City State)" .
+
+ns1:Country_237 a ns1:Country ;
+    ns1:hasCountryCode "VC" ;
+    ns1:hasCountryName "Saint Vincent and the Grenadines" .
+
+ns1:Country_238 a ns1:Country ;
+    ns1:hasCountryCode "VE" ;
+    ns1:hasCountryName "Venezuela" .
+
+ns1:Country_239 a ns1:Country ;
+    ns1:hasCountryCode "VG" ;
+    ns1:hasCountryName "Virgin Islands (British)" .
+
+ns1:Country_24 a ns1:Country ;
+    ns1:hasCountryCode "BI" ;
+    ns1:hasCountryName "Burundi" .
+
+ns1:Country_240 a ns1:Country ;
+    ns1:hasCountryCode "VI" ;
+    ns1:hasCountryName "Virgin Islands (USA)" .
+
+ns1:Country_241 a ns1:Country ;
+    ns1:hasCountryCode "VN" ;
+    ns1:hasCountryName "Vietnam" .
+
+ns1:Country_242 a ns1:Country ;
+    ns1:hasCountryCode "VU" ;
+    ns1:hasCountryName "Vanuatu" .
+
+ns1:Country_243 a ns1:Country ;
+    ns1:hasCountryCode "WF" ;
+    ns1:hasCountryName "Wallis and Futuna" .
+
+ns1:Country_244 a ns1:Country ;
+    ns1:hasCountryCode "WS" ;
+    ns1:hasCountryName "Samoa" .
+
+ns1:Country_245 a ns1:Country ;
+    ns1:hasCountryCode "YE" ;
+    ns1:hasCountryName "Yemen" .
+
+ns1:Country_246 a ns1:Country ;
+    ns1:hasCountryCode "YT" ;
+    ns1:hasCountryName "Mayotte" .
+
+ns1:Country_247 a ns1:Country ;
+    ns1:hasCountryCode "ZA" ;
+    ns1:hasCountryName "South Africa" .
+
+ns1:Country_248 a ns1:Country ;
+    ns1:hasCountryCode "ZM" ;
+    ns1:hasCountryName "Zambia" .
+
+ns1:Country_249 a ns1:Country ;
+    ns1:hasCountryCode "ZW" ;
+    ns1:hasCountryName "Zimbabwe" .
+
+ns1:Country_25 a ns1:Country ;
+    ns1:hasCountryCode "BJ" ;
+    ns1:hasCountryName "Benin" .
+
+ns1:Country_250 a ns1:Country ;
+    ns1:hasCountryCode "XK" ;
+    ns1:hasCountryName "Kosovo" .
+
+ns1:Country_26 a ns1:Country ;
+    ns1:hasCountryCode "BL" ;
+    ns1:hasCountryName "Saint Barthélémy" .
+
+ns1:Country_27 a ns1:Country ;
+    ns1:hasCountryCode "BM" ;
+    ns1:hasCountryName "Bermuda" .
+
+ns1:Country_28 a ns1:Country ;
+    ns1:hasCountryCode "BN" ;
+    ns1:hasCountryName "Brunei Darussalam" .
+
+ns1:Country_29 a ns1:Country ;
+    ns1:hasCountryCode "BO" ;
+    ns1:hasCountryName "Bolivia" .
+
+ns1:Country_3 a ns1:Country ;
+    ns1:hasCountryCode "AF" ;
+    ns1:hasCountryName "Afghanistan" .
+
+ns1:Country_30 a ns1:Country ;
+    ns1:hasCountryCode "BQ" ;
+    ns1:hasCountryName "Bonaire, Sint Eustatius and Saba" .
+
+ns1:Country_31 a ns1:Country ;
+    ns1:hasCountryCode "BR" ;
+    ns1:hasCountryName "Brazil" .
+
+ns1:Country_32 a ns1:Country ;
+    ns1:hasCountryCode "BS" ;
+    ns1:hasCountryName "Bahamas" .
+
+ns1:Country_33 a ns1:Country ;
+    ns1:hasCountryCode "BT" ;
+    ns1:hasCountryName "Bhutan" .
+
+ns1:Country_34 a ns1:Country ;
+    ns1:hasCountryCode "BV" ;
+    ns1:hasCountryName "Bouvet Island" .
+
+ns1:Country_35 a ns1:Country ;
+    ns1:hasCountryCode "BW" ;
+    ns1:hasCountryName "Botswana" .
+
+ns1:Country_36 a ns1:Country ;
+    ns1:hasCountryCode "BY" ;
+    ns1:hasCountryName "Belarus" .
+
+ns1:Country_37 a ns1:Country ;
+    ns1:hasCountryCode "BZ" ;
+    ns1:hasCountryName "Belize" .
+
+ns1:Country_38 a ns1:Country ;
+    ns1:hasCountryCode "CA" ;
+    ns1:hasCountryName "Canada" .
+
+ns1:Country_39 a ns1:Country ;
+    ns1:hasCountryCode "CC" ;
+    ns1:hasCountryName "Cocos (Keeling) Islands" .
+
+ns1:Country_4 a ns1:Country ;
+    ns1:hasCountryCode "AG" ;
+    ns1:hasCountryName "Antigua and Barbuda" .
+
+ns1:Country_40 a ns1:Country ;
+    ns1:hasCountryCode "CF" ;
+    ns1:hasCountryName "Central African Republic" .
+
+ns1:Country_41 a ns1:Country ;
+    ns1:hasCountryCode "CD" ;
+    ns1:hasCountryName "Democratic Republic of the Congo" .
+
+ns1:Country_42 a ns1:Country ;
+    ns1:hasCountryCode "CG" ;
+    ns1:hasCountryName "Congo" .
+
+ns1:Country_43 a ns1:Country ;
+    ns1:hasCountryCode "CH" ;
+    ns1:hasCountryName "Switzerland" .
+
+ns1:Country_44 a ns1:Country ;
+    ns1:hasCountryCode "CI" ;
+    ns1:hasCountryName "Côte d'Ivoire" .
+
+ns1:Country_45 a ns1:Country ;
+    ns1:hasCountryCode "CK" ;
+    ns1:hasCountryName "Cook Islands" .
+
+ns1:Country_46 a ns1:Country ;
+    ns1:hasCountryCode "CL" ;
+    ns1:hasCountryName "Chile" .
+
+ns1:Country_47 a ns1:Country ;
+    ns1:hasCountryCode "CM" ;
+    ns1:hasCountryName "Cameroon" .
+
+ns1:Country_48 a ns1:Country ;
+    ns1:hasCountryCode "CN" ;
+    ns1:hasCountryName "China" .
+
+ns1:Country_49 a ns1:Country ;
+    ns1:hasCountryCode "CO" ;
+    ns1:hasCountryName "Colombia" .
+
+ns1:Country_5 a ns1:Country ;
+    ns1:hasCountryCode "AI" ;
+    ns1:hasCountryName "Anguilla" .
+
+ns1:Country_50 a ns1:Country ;
+    ns1:hasCountryCode "CR" ;
+    ns1:hasCountryName "Costa Rica" .
+
+ns1:Country_51 a ns1:Country ;
+    ns1:hasCountryCode "CU" ;
+    ns1:hasCountryName "Cuba" .
+
+ns1:Country_52 a ns1:Country ;
+    ns1:hasCountryCode "CV" ;
+    ns1:hasCountryName "Cape Verde" .
+
+ns1:Country_53 a ns1:Country ;
+    ns1:hasCountryCode "CW" ;
+    ns1:hasCountryName "Curaçao" .
+
+ns1:Country_54 a ns1:Country ;
+    ns1:hasCountryCode "CX" ;
+    ns1:hasCountryName "Christmas Island" .
+
+ns1:Country_55 a ns1:Country ;
+    ns1:hasCountryCode "CY" ;
+    ns1:hasCountryName "Cyprus" .
+
+ns1:Country_56 a ns1:Country ;
+    ns1:hasCountryCode "CZ" ;
+    ns1:hasCountryName "Czech Republic" .
+
+ns1:Country_57 a ns1:Country ;
+    ns1:hasCountryCode "DE" ;
+    ns1:hasCountryName "Germany" .
+
+ns1:Country_58 a ns1:Country ;
+    ns1:hasCountryCode "DJ" ;
+    ns1:hasCountryName "Djibouti" .
+
+ns1:Country_59 a ns1:Country ;
+    ns1:hasCountryCode "DK" ;
+    ns1:hasCountryName "Denmark" .
+
+ns1:Country_6 a ns1:Country ;
+    ns1:hasCountryCode "AL" ;
+    ns1:hasCountryName "Albania" .
+
+ns1:Country_60 a ns1:Country ;
+    ns1:hasCountryCode "DM" ;
+    ns1:hasCountryName "Dominica" .
+
+ns1:Country_61 a ns1:Country ;
+    ns1:hasCountryCode "DO" ;
+    ns1:hasCountryName "Dominican Republic" .
+
+ns1:Country_62 a ns1:Country ;
+    ns1:hasCountryCode "DZ" ;
+    ns1:hasCountryName "Algeria" .
+
+ns1:Country_63 a ns1:Country ;
+    ns1:hasCountryCode "EC" ;
+    ns1:hasCountryName "Ecuador" .
+
+ns1:Country_64 a ns1:Country ;
+    ns1:hasCountryCode "EE" ;
+    ns1:hasCountryName "Estonia" .
+
+ns1:Country_65 a ns1:Country ;
+    ns1:hasCountryCode "EG" ;
+    ns1:hasCountryName "Egypt" .
+
+ns1:Country_66 a ns1:Country ;
+    ns1:hasCountryCode "EH" ;
+    ns1:hasCountryName "Western Sahara" .
+
+ns1:Country_67 a ns1:Country ;
+    ns1:hasCountryCode "ER" ;
+    ns1:hasCountryName "Eritrea" .
+
+ns1:Country_68 a ns1:Country ;
+    ns1:hasCountryCode "ES" ;
+    ns1:hasCountryName "Spain" .
+
+ns1:Country_69 a ns1:Country ;
+    ns1:hasCountryCode "ET" ;
+    ns1:hasCountryName "Ethiopia" .
+
+ns1:Country_7 a ns1:Country ;
+    ns1:hasCountryCode "AM" ;
+    ns1:hasCountryName "Armenia" .
+
+ns1:Country_70 a ns1:Country ;
+    ns1:hasCountryCode "FI" ;
+    ns1:hasCountryName "Finland" .
+
+ns1:Country_71 a ns1:Country ;
+    ns1:hasCountryCode "FJ" ;
+    ns1:hasCountryName "Fiji" .
+
+ns1:Country_72 a ns1:Country ;
+    ns1:hasCountryCode "FK" ;
+    ns1:hasCountryName "Falkland Islands" .
+
+ns1:Country_73 a ns1:Country ;
+    ns1:hasCountryCode "FM" ;
+    ns1:hasCountryName "Micronesia" .
+
+ns1:Country_74 a ns1:Country ;
+    ns1:hasCountryCode "FO" ;
+    ns1:hasCountryName "Faroe Islands" .
+
+ns1:Country_75 a ns1:Country ;
+    ns1:hasCountryCode "FR" ;
+    ns1:hasCountryName "France" .
+
+ns1:Country_76 a ns1:Country ;
+    ns1:hasCountryCode "GA" ;
+    ns1:hasCountryName "Gabon" .
+
+ns1:Country_77 a ns1:Country ;
+    ns1:hasCountryCode "GD" ;
+    ns1:hasCountryName "Grenada" .
+
+ns1:Country_78 a ns1:Country ;
+    ns1:hasCountryCode "GE" ;
+    ns1:hasCountryName "Georgia" .
+
+ns1:Country_79 a ns1:Country ;
+    ns1:hasCountryCode "GF" ;
+    ns1:hasCountryName "French Guiana" .
+
+ns1:Country_8 a ns1:Country ;
+    ns1:hasCountryCode "AO" ;
+    ns1:hasCountryName "Angola" .
+
+ns1:Country_80 a ns1:Country ;
+    ns1:hasCountryCode "GH" ;
+    ns1:hasCountryName "Ghana" .
+
+ns1:Country_81 a ns1:Country ;
+    ns1:hasCountryCode "GI" ;
+    ns1:hasCountryName "Gibraltar" .
+
+ns1:Country_82 a ns1:Country ;
+    ns1:hasCountryCode "GG" ;
+    ns1:hasCountryName "Guernsey" .
+
+ns1:Country_83 a ns1:Country ;
+    ns1:hasCountryCode "GL" ;
+    ns1:hasCountryName "Greenland" .
+
+ns1:Country_84 a ns1:Country ;
+    ns1:hasCountryCode "GM" ;
+    ns1:hasCountryName "Gambia" .
+
+ns1:Country_85 a ns1:Country ;
+    ns1:hasCountryCode "GN" ;
+    ns1:hasCountryName "Guinea" .
+
+ns1:Country_86 a ns1:Country ;
+    ns1:hasCountryCode "GP" ;
+    ns1:hasCountryName "Guadeloupe" .
+
+ns1:Country_87 a ns1:Country ;
+    ns1:hasCountryCode "GQ" ;
+    ns1:hasCountryName "Equatorial Guinea" .
+
+ns1:Country_88 a ns1:Country ;
+    ns1:hasCountryCode "GR" ;
+    ns1:hasCountryName "Greece" .
+
+ns1:Country_89 a ns1:Country ;
+    ns1:hasCountryCode "GS" ;
+    ns1:hasCountryName "South Georgia and the South Sandwich Islands" .
+
+ns1:Country_9 a ns1:Country ;
+    ns1:hasCountryCode "AQ" ;
+    ns1:hasCountryName "Antarctica" .
+
+ns1:Country_90 a ns1:Country ;
+    ns1:hasCountryCode "GT" ;
+    ns1:hasCountryName "Guatemala" .
+
+ns1:Country_91 a ns1:Country ;
+    ns1:hasCountryCode "GU" ;
+    ns1:hasCountryName "Guam" .
+
+ns1:Country_92 a ns1:Country ;
+    ns1:hasCountryCode "GW" ;
+    ns1:hasCountryName "Guinea-Bissau" .
+
+ns1:Country_93 a ns1:Country ;
+    ns1:hasCountryCode "GY" ;
+    ns1:hasCountryName "Guyana" .
+
+ns1:Country_94 a ns1:Country ;
+    ns1:hasCountryCode "HK" ;
+    ns1:hasCountryName "Hong Kong" .
+
+ns1:Country_95 a ns1:Country ;
+    ns1:hasCountryCode "HM" ;
+    ns1:hasCountryName "Heard Island and McDonald Islands" .
+
+ns1:Country_96 a ns1:Country ;
+    ns1:hasCountryCode "HN" ;
+    ns1:hasCountryName "Honduras" .
+
+ns1:Country_97 a ns1:Country ;
+    ns1:hasCountryCode "HR" ;
+    ns1:hasCountryName "Croatia" .
+
+ns1:Country_98 a ns1:Country ;
+    ns1:hasCountryCode "HT" ;
+    ns1:hasCountryName "Haiti" .
+
+ns1:Country_99 a ns1:Country ;
+    ns1:hasCountryCode "HU" ;
+    ns1:hasCountryName "Hungary" .
+
+ns1:Order_line_017f6839-c601-4020-8c52-5a13dca0abd5 a ns1:Order_line ;
+    ns1:hasPrice 1.995e+03 ;
+    ns1:hasProductName "AUDIFONOS ARGOM BLUETOOTH ARG-HS-2552B" ;
+    ns1:hasQuantity 1e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00004 ;
+    ns1:hasSubtotal 1.995e+03 .
+
+ns1:Order_line_01a02a82-6312-4401-a0d5-adaebd674bc8 a ns1:Order_line ;
+    ns1:hasPrice 6e+01 ;
+    ns1:hasProductName "pan sobao Buenhorno 10/1" ;
+    ns1:hasQuantity 4e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00050 ;
+    ns1:hasSubtotal 2.4e+02 .
+
+ns1:Order_line_0c5c4e4f-a238-4bc3-90e4-76a3fafe0b64 a ns1:Order_line ;
+    ns1:hasPrice 2.6995e+04 ;
+    ns1:hasProductName "CELULAR SAMSUNG A35 256GB NEGRO 356EZKGGTO" ;
+    ns1:hasQuantity 3e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00037 ;
+    ns1:hasSubtotal 8.0985e+04 .
+
+ns1:Order_line_0f82ecd5-fc33-4b15-879a-cfea19d42224 a ns1:Order_line ;
+    ns1:hasPrice 1.98e+02 ;
+    ns1:hasProductName "GALLETAS DULCES OREO REGULAR 12 UND" ;
+    ns1:hasQuantity 1.2e+01 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00017 ;
+    ns1:hasSubtotal 2.376e+03 .
+
+ns1:Order_line_13b31edb-9cb3-4ee6-8401-cb83facb09d0 a ns1:Order_line ;
+    ns1:hasPrice 2.4995e+04 ;
+    ns1:hasProductName "BATIDORA CUISINART PEDESTAL SM-50BC" ;
+    ns1:hasQuantity 4e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00011 ;
+    ns1:hasSubtotal 9.998e+04 .
+
+ns1:Order_line_1460bb2e-2589-4ead-8d18-a3407b3b77ea a ns1:Order_line ;
+    ns1:hasPrice 2.6995e+04 ;
+    ns1:hasProductName "CELULAR SAMSUNG A35 256GB NEGRO 356EZKGGTO" ;
+    ns1:hasQuantity 1e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00011 ;
+    ns1:hasSubtotal 2.6995e+04 .
+
+ns1:Order_line_15585a94-2f04-43db-9966-ee2f009746c7 a ns1:Order_line ;
+    ns1:hasPrice 2.6995e+04 ;
+    ns1:hasProductName "CELULAR SAMSUNG A35 256GB NEGRO 356EZKGGTO" ;
+    ns1:hasQuantity 1e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00047 ;
+    ns1:hasSubtotal 2.6995e+04 .
+
+ns1:Order_line_15a7acc0-4342-48a2-843d-a651d15a087e a ns1:Order_line ;
+    ns1:hasPrice 2.6995e+04 ;
+    ns1:hasProductName "CELULAR SAMSUNG A35 256GB NEGRO 356EZKGGTO" ;
+    ns1:hasQuantity 5e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00013 ;
+    ns1:hasSubtotal 1.34975e+05 .
+
+ns1:Order_line_190b01e8-21d9-416f-bbea-d98525ef6f4b a ns1:Order_line ;
+    ns1:hasPrice 2.6995e+04 ;
+    ns1:hasProductName "CELULAR SAMSUNG A35 256GB NEGRO 356EZKGGTO" ;
+    ns1:hasQuantity 3e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00034 ;
+    ns1:hasSubtotal 8.0985e+04 .
+
+ns1:Order_line_19e638ff-189e-49dd-b752-860947a0538d a ns1:Order_line ;
+    ns1:hasPrice 1.995e+03 ;
+    ns1:hasProductName "AUDIFONOS ARGOM BLUETOOTH ARG-HS-2552B" ;
+    ns1:hasQuantity 5e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00031 ;
+    ns1:hasSubtotal 9.975e+03 .
+
+ns1:Order_line_1ce7a498-4410-4cc8-874e-31136966a58b a ns1:Order_line ;
+    ns1:hasPrice 1.98e+02 ;
+    ns1:hasProductName "GALLETAS DULCES OREO REGULAR 12 UND" ;
+    ns1:hasQuantity 5e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00007 ;
+    ns1:hasSubtotal 9.9e+02 .
+
+ns1:Order_line_1def4dc3-1f33-43f3-b53f-a0b3a0dc6461 a ns1:Order_line ;
+    ns1:hasPrice 9.95e+02 ;
+    ns1:hasProductName "Sandwichera Nikkei 264124" ;
+    ns1:hasQuantity 1e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00050 ;
+    ns1:hasSubtotal 9.95e+02 .
+
+ns1:Order_line_21c77cac-7b7d-4967-aad5-5f9a38124be6 a ns1:Order_line ;
+    ns1:hasPrice 2.6995e+04 ;
+    ns1:hasProductName "CELULAR SAMSUNG A35 256GB NEGRO 356EZKGGTO" ;
+    ns1:hasQuantity 6e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00009 ;
+    ns1:hasSubtotal 1.6197e+05 .
+
+ns1:Order_line_293b1e61-1926-4180-bd06-b23201932b22 a ns1:Order_line ;
+    ns1:hasPrice 1.995e+03 ;
+    ns1:hasProductName "AUDIFONOS ARGOM BLUETOOTH ARG-HS-2552B" ;
+    ns1:hasQuantity 2e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00027 ;
+    ns1:hasSubtotal 3.99e+03 .
+
+ns1:Order_line_2b49cd88-ed83-485a-8554-75e335de630f a ns1:Order_line ;
+    ns1:hasPrice 1.995e+03 ;
+    ns1:hasProductName "AUDIFONOS ARGOM BLUETOOTH ARG-HS-2552B" ;
+    ns1:hasQuantity 1e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00009 ;
+    ns1:hasSubtotal 1.995e+03 .
+
+ns1:Order_line_49a435ce-4cfd-4800-b6dd-ce8c6bd5aa14 a ns1:Order_line ;
+    ns1:hasPrice 1.98e+02 ;
+    ns1:hasProductName "GALLETAS DULCES OREO REGULAR 12 UND" ;
+    ns1:hasQuantity 1e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00049 ;
+    ns1:hasSubtotal 1.98e+02 .
+
+ns1:Order_line_4b53d8f7-6202-49c5-955a-1cea9e92f372 a ns1:Order_line ;
+    ns1:hasPrice 2.6995e+04 ;
+    ns1:hasProductName "CELULAR SAMSUNG A35 256GB NEGRO 356EZKGGTO" ;
+    ns1:hasQuantity 1e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00051 ;
+    ns1:hasSubtotal 2.6995e+04 .
+
+ns1:Order_line_53792cf2-eeb3-4c83-9465-80ec13a2c617 a ns1:Order_line ;
+    ns1:hasPrice 1.98e+02 ;
+    ns1:hasProductName "GALLETAS DULCES OREO REGULAR 12 UND" ;
+    ns1:hasQuantity 6e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00024 ;
+    ns1:hasSubtotal 1.188e+03 .
+
+ns1:Order_line_58782523-8644-422c-a94a-5ed0b7e2c755 a ns1:Order_line ;
+    ns1:hasPrice 9.5e+01 ;
+    ns1:hasProductName "Refresco coca cola clasica 2.5 lt" ;
+    ns1:hasQuantity 2e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00010 ;
+    ns1:hasSubtotal 1.9e+02 .
+
+ns1:Order_line_59cdcf73-d0e1-4842-81b4-2cfc11ff4a3d a ns1:Order_line ;
+    ns1:hasPrice 1.995e+03 ;
+    ns1:hasProductName "AUDIFONOS ARGOM BLUETOOTH ARG-HS-2552B" ;
+    ns1:hasQuantity 1e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00018 ;
+    ns1:hasSubtotal 1.995e+03 .
+
+ns1:Order_line_5b2596c6-4942-4a51-9bc8-10cf2e32e782 a ns1:Order_line ;
+    ns1:hasPrice 1.995e+03 ;
+    ns1:hasProductName "AUDIFONOS ARGOM BLUETOOTH ARG-HS-2552B" ;
+    ns1:hasQuantity 6e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00032 ;
+    ns1:hasSubtotal 1.197e+04 .
+
+ns1:Order_line_5bd52d40-0416-4662-870f-ed1099e337d2 a ns1:Order_line ;
+    ns1:hasPrice 0e+00 ;
+    ns1:hasProductName "Standard delivery" ;
+    ns1:hasQuantity 1e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00001 ;
+    ns1:hasSubtotal 0e+00 .
+
+ns1:Order_line_5fc9514d-9470-4d6b-abde-aa282b348341 a ns1:Order_line ;
+    ns1:hasPrice 6.295e+03 ;
+    ns1:hasProductName "Licuadora Oster Cromada 3v Blst4655" ;
+    ns1:hasQuantity 6e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00010 ;
+    ns1:hasSubtotal 3.777e+04 .
+
+ns1:Order_line_627af143-c877-45d6-a2d2-4e77b9f39cdb a ns1:Order_line ;
+    ns1:hasPrice 1.98e+02 ;
+    ns1:hasProductName "GALLETAS DULCES OREO REGULAR 12 UND" ;
+    ns1:hasQuantity 1e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00008 ;
+    ns1:hasSubtotal 1.98e+02 .
+
+ns1:Order_line_656b71cc-5ce4-4fac-b5d8-468dddfffcc0 a ns1:Order_line ;
+    ns1:hasPrice 6e+01 ;
+    ns1:hasProductName "pan sobao Buenhorno 10/1" ;
+    ns1:hasQuantity 3e+01 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00012 ;
+    ns1:hasSubtotal 1.8e+03 .
+
+ns1:Order_line_6aec9058-3bda-457c-88b1-1e2df9ce0d07 a ns1:Order_line ;
+    ns1:hasPrice 1.98e+02 ;
+    ns1:hasProductName "GALLETAS DULCES OREO REGULAR 12 UND" ;
+    ns1:hasQuantity 5e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00041 ;
+    ns1:hasSubtotal 9.9e+02 .
+
+ns1:Order_line_6b3038f2-d1c2-4779-8240-8055eaaf68e4 a ns1:Order_line ;
+    ns1:hasPrice 1.995e+03 ;
+    ns1:hasProductName "AUDIFONOS ARGOM BLUETOOTH ARG-HS-2552B" ;
+    ns1:hasQuantity 2.5e+01 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00005 ;
+    ns1:hasSubtotal 4.9875e+04 .
+
+ns1:Order_line_6c879966-dd22-428e-b368-09560f45dc82 a ns1:Order_line ;
+    ns1:hasPrice 2.4995e+04 ;
+    ns1:hasProductName "BATIDORA CUISINART PEDESTAL SM-50BC" ;
+    ns1:hasQuantity 1e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00040 ;
+    ns1:hasSubtotal 2.4995e+04 .
+
+ns1:Order_line_6f0973d3-ba86-4573-b9e1-e8e180abc5e9 a ns1:Order_line ;
+    ns1:hasPrice 6.295e+03 ;
+    ns1:hasProductName "Licuadora Oster Cromada 3v Blst4655" ;
+    ns1:hasQuantity 9e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00046 ;
+    ns1:hasSubtotal 5.6655e+04 .
+
+ns1:Order_line_71c8806f-4929-4cb4-af4b-e61dc5f8e91e a ns1:Order_line ;
+    ns1:hasPrice 2.9995e+04 ;
+    ns1:hasProductName "LAPTOP LENOVO 14P 8GB 256GB 82YT00Q3US" ;
+    ns1:hasQuantity 1.5e+01 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00013 ;
+    ns1:hasSubtotal 4.49925e+05 .
+
+ns1:Order_line_73cc53c0-6a67-4dca-b6e0-abb692681793 a ns1:Order_line ;
+    ns1:hasPrice 6.295e+03 ;
+    ns1:hasProductName "Licuadora Oster Cromada 3v Blst4655" ;
+    ns1:hasQuantity 2e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00042 ;
+    ns1:hasSubtotal 1.259e+04 .
+
+ns1:Order_line_775cd581-be69-42e1-98c0-0a830c8db50e a ns1:Order_line ;
+    ns1:hasPrice 1.98e+02 ;
+    ns1:hasProductName "GALLETAS DULCES OREO REGULAR 12 UND" ;
+    ns1:hasQuantity 1e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00009 ;
+    ns1:hasSubtotal 1.98e+02 .
+
+ns1:Order_line_775f1308-105e-4323-9bcd-770c4942d94b a ns1:Order_line ;
+    ns1:hasPrice 9.95e+02 ;
+    ns1:hasProductName "Sandwichera Nikkei 264124" ;
+    ns1:hasQuantity 5e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00011 ;
+    ns1:hasSubtotal 4.975e+03 .
+
+ns1:Order_line_78ec976b-42f5-4990-95c9-fcd4d66ecd6b a ns1:Order_line ;
+    ns1:hasPrice 2.6995e+04 ;
+    ns1:hasProductName "CELULAR SAMSUNG A35 256GB NEGRO 356EZKGGTO" ;
+    ns1:hasQuantity 2.3e+01 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00023 ;
+    ns1:hasSubtotal 6.20885e+05 .
+
+ns1:Order_line_8bd3e8be-6d13-4d16-b35e-acc75b69067e a ns1:Order_line ;
+    ns1:hasPrice 6e+01 ;
+    ns1:hasProductName "pan sobao Buenhorno 10/1" ;
+    ns1:hasQuantity 1e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00038 ;
+    ns1:hasSubtotal 6e+01 .
+
+ns1:Order_line_943989c6-5de9-4f60-9924-ef2665091db4 a ns1:Order_line ;
+    ns1:hasPrice 1.995e+03 ;
+    ns1:hasProductName "AUDIFONOS ARGOM BLUETOOTH ARG-HS-2552B" ;
+    ns1:hasQuantity 3e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00045 ;
+    ns1:hasSubtotal 5.985e+03 .
+
+ns1:Order_line_96bb6d3d-43ec-49f5-9ca4-0944fd3cdef6 a ns1:Order_line ;
+    ns1:hasPrice 9.95e+02 ;
+    ns1:hasProductName "Sandwichera Nikkei 264124" ;
+    ns1:hasQuantity 2.3e+01 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00003 ;
+    ns1:hasSubtotal 2.2885e+04 .
+
+ns1:Order_line_9acabd55-6824-482c-a447-5e9b656351ce a ns1:Order_line ;
+    ns1:hasPrice 2.6995e+04 ;
+    ns1:hasProductName "CELULAR SAMSUNG A35 256GB NEGRO 356EZKGGTO" ;
+    ns1:hasQuantity 4e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00035 ;
+    ns1:hasSubtotal 1.0798e+05 .
+
+ns1:Order_line_9c58abbf-2d52-47b0-8e9c-b586f122e6d5 a ns1:Order_line ;
+    ns1:hasPrice 1.98e+02 ;
+    ns1:hasProductName "GALLETAS DULCES OREO REGULAR 12 UND" ;
+    ns1:hasQuantity 7e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00033 ;
+    ns1:hasSubtotal 1.386e+03 .
+
+ns1:Order_line_9cf667ff-3f2b-4d68-9383-bfa2fa89aa75 a ns1:Order_line ;
+    ns1:hasPrice 9.95e+02 ;
+    ns1:hasProductName "Sandwichera Nikkei 264124" ;
+    ns1:hasQuantity 2e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00026 ;
+    ns1:hasSubtotal 1.99e+03 .
+
+ns1:Order_line_9d23a701-1b17-416f-801e-3787b8ec45cf a ns1:Order_line ;
+    ns1:hasPrice 1.995e+03 ;
+    ns1:hasProductName "AUDIFONOS ARGOM BLUETOOTH ARG-HS-2552B" ;
+    ns1:hasQuantity 1e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00025 ;
+    ns1:hasSubtotal 1.995e+03 .
+
+ns1:Order_line_9d35ac4a-c799-4662-a708-a03880a771da a ns1:Order_line ;
+    ns1:hasPrice 6.295e+03 ;
+    ns1:hasProductName "Licuadora Oster Cromada 3v Blst4655" ;
+    ns1:hasQuantity 5e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00036 ;
+    ns1:hasSubtotal 3.1475e+04 .
+
+ns1:Order_line_9d7c148a-31dc-45fa-ab69-b551e29f692b a ns1:Order_line ;
+    ns1:hasPrice 2.4995e+04 ;
+    ns1:hasProductName "BATIDORA CUISINART PEDESTAL SM-50BC" ;
+    ns1:hasQuantity 1e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00048 ;
+    ns1:hasSubtotal 2.4995e+04 .
+
+ns1:Order_line_9ee577fd-aefa-4977-9d38-caa868f5d287 a ns1:Order_line ;
+    ns1:hasPrice 9.5e+01 ;
+    ns1:hasProductName "Refresco coca cola clasica 2.5 lt" ;
+    ns1:hasQuantity 5e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00030 ;
+    ns1:hasSubtotal 4.75e+02 .
+
+ns1:Order_line_a16c1230-04a0-4aeb-b2b4-5605b8ff4c26 a ns1:Order_line ;
+    ns1:hasPrice 2.6995e+04 ;
+    ns1:hasProductName "CELULAR SAMSUNG A35 256GB NEGRO 356EZKGGTO" ;
+    ns1:hasQuantity 1e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00002 ;
+    ns1:hasSubtotal 2.6995e+04 .
+
+ns1:Order_line_a82151b3-56da-4c9d-bbdf-2e3c8e37a3fb a ns1:Order_line ;
+    ns1:hasPrice 9.95e+02 ;
+    ns1:hasProductName "Sandwichera Nikkei 264124" ;
+    ns1:hasQuantity 1e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00004 ;
+    ns1:hasSubtotal 9.95e+02 .
+
+ns1:Order_line_a9215d42-dfa6-47db-a397-8e34369d97bb a ns1:Order_line ;
+    ns1:hasPrice 1.98e+02 ;
+    ns1:hasProductName "GALLETAS DULCES OREO REGULAR 12 UND" ;
+    ns1:hasQuantity 4e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00027 ;
+    ns1:hasSubtotal 7.92e+02 .
+
+ns1:Order_line_aad41030-9712-4815-ae5d-882b710ea347 a ns1:Order_line ;
+    ns1:hasPrice 6.295e+03 ;
+    ns1:hasProductName "Licuadora Oster Cromada 3v Blst4655" ;
+    ns1:hasQuantity 1e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00029 ;
+    ns1:hasSubtotal 6.295e+03 .
+
+ns1:Order_line_abf944bc-05e3-41cb-aa5d-09d81093a677 a ns1:Order_line ;
+    ns1:hasPrice 9.5e+01 ;
+    ns1:hasProductName "Refresco coca cola clasica 2.5 lt" ;
+    ns1:hasQuantity 1.5e+01 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00015 ;
+    ns1:hasSubtotal 1.425e+03 .
+
+ns1:Order_line_b09e43f6-a344-4ee0-9e2f-0c987879458e a ns1:Order_line ;
+    ns1:hasPrice 2.9995e+04 ;
+    ns1:hasProductName "LAPTOP LENOVO 14P 8GB 256GB 82YT00Q3US" ;
+    ns1:hasQuantity 4.3e+01 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00007 ;
+    ns1:hasSubtotal 1.289785e+06 .
+
+ns1:Order_line_b2a3d22d-d3d5-43b7-8a1a-1a90f4fa343f a ns1:Order_line ;
+    ns1:hasPrice 2.6995e+04 ;
+    ns1:hasProductName "CELULAR SAMSUNG A35 256GB NEGRO 356EZKGGTO" ;
+    ns1:hasQuantity 1e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00018 ;
+    ns1:hasSubtotal 2.6995e+04 .
+
+ns1:Order_line_b6a03b6a-e607-4b3e-8eec-7cd4ab68e2fc a ns1:Order_line ;
+    ns1:hasPrice 2.9995e+04 ;
+    ns1:hasProductName "LAPTOP LENOVO 14P 8GB 256GB 82YT00Q3US" ;
+    ns1:hasQuantity 5e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00001 ;
+    ns1:hasSubtotal 1.49975e+05 .
+
+ns1:Order_line_c23864bd-4c80-4814-99f7-128c5712d253 a ns1:Order_line ;
+    ns1:hasPrice 2.4995e+04 ;
+    ns1:hasProductName "BATIDORA CUISINART PEDESTAL SM-50BC" ;
+    ns1:hasQuantity 4e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00025 ;
+    ns1:hasSubtotal 9.998e+04 .
+
+ns1:Order_line_c2aa9d51-7087-4de0-9d97-7b09461e6b2e a ns1:Order_line ;
+    ns1:hasPrice 6e+01 ;
+    ns1:hasProductName "pan sobao Buenhorno 10/1" ;
+    ns1:hasQuantity 5e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00020 ;
+    ns1:hasSubtotal 3e+02 .
+
+ns1:Order_line_c6db9f6b-ed0d-4dd1-868b-073676c31ff5 a ns1:Order_line ;
+    ns1:hasPrice 1.98e+02 ;
+    ns1:hasProductName "GALLETAS DULCES OREO REGULAR 12 UND" ;
+    ns1:hasQuantity 4e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00028 ;
+    ns1:hasSubtotal 7.92e+02 .
+
+ns1:Order_line_c8a1b5f1-4085-4871-bf88-8bbea3f21ba2 a ns1:Order_line ;
+    ns1:hasPrice 1.98e+02 ;
+    ns1:hasProductName "GALLETAS DULCES OREO REGULAR 12 UND" ;
+    ns1:hasQuantity 2e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00021 ;
+    ns1:hasSubtotal 3.96e+02 .
+
+ns1:Order_line_ca6fbb0c-5ded-415c-9de8-7f99529ca440 a ns1:Order_line ;
+    ns1:hasPrice 2.6995e+04 ;
+    ns1:hasProductName "CELULAR SAMSUNG A35 256GB NEGRO 356EZKGGTO" ;
+    ns1:hasQuantity 1e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00049 ;
+    ns1:hasSubtotal 2.6995e+04 .
+
+ns1:Order_line_ccbf3be7-8d2b-45ff-b99d-a6b4390afc2b a ns1:Order_line ;
+    ns1:hasPrice 2.9995e+04 ;
+    ns1:hasProductName "LAPTOP LENOVO 14P 8GB 256GB 82YT00Q3US" ;
+    ns1:hasQuantity 1e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00022 ;
+    ns1:hasSubtotal 2.9995e+04 .
+
+ns1:Order_line_d0b7059c-1b5a-454b-b14a-43857d31894f a ns1:Order_line ;
+    ns1:hasPrice 6e+01 ;
+    ns1:hasProductName "pan sobao Buenhorno 10/1" ;
+    ns1:hasQuantity 8e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00006 ;
+    ns1:hasSubtotal 4.8e+02 .
+
+ns1:Order_line_d4123dfe-9678-4633-b0c9-e5e5ddaa8bd9 a ns1:Order_line ;
+    ns1:hasPrice 2.4995e+04 ;
+    ns1:hasProductName "BATIDORA CUISINART PEDESTAL SM-50BC" ;
+    ns1:hasQuantity 1e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00004 ;
+    ns1:hasSubtotal 2.4995e+04 .
+
+ns1:Order_line_d64c9d88-c5fa-4b02-9579-3f1d8a61c31b a ns1:Order_line ;
+    ns1:hasPrice 9.5e+01 ;
+    ns1:hasProductName "Refresco coca cola clasica 2.5 lt" ;
+    ns1:hasQuantity 4e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00043 ;
+    ns1:hasSubtotal 3.8e+02 .
+
+ns1:Order_line_de73e709-c624-4b86-90a6-1fa891a4e019 a ns1:Order_line ;
+    ns1:hasPrice 2.9995e+04 ;
+    ns1:hasProductName "LAPTOP LENOVO 14P 8GB 256GB 82YT00Q3US" ;
+    ns1:hasQuantity 1e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00048 ;
+    ns1:hasSubtotal 2.9995e+04 .
+
+ns1:Order_line_e34d9850-31bc-43d9-9a92-a6cd6127ed9e a ns1:Order_line ;
+    ns1:hasPrice 6.295e+03 ;
+    ns1:hasProductName "Licuadora Oster Cromada 3v Blst4655" ;
+    ns1:hasQuantity 2e+01 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00016 ;
+    ns1:hasSubtotal 1.259e+05 .
+
+ns1:Order_line_ea2c5461-e24e-422c-a374-0e596f2543f2 a ns1:Order_line ;
+    ns1:hasPrice 2.9995e+04 ;
+    ns1:hasProductName "LAPTOP LENOVO 14P 8GB 256GB 82YT00Q3US" ;
+    ns1:hasQuantity 1e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00018 ;
+    ns1:hasSubtotal 2.9995e+04 .
+
+ns1:Order_line_ee1d3c8c-9017-41a7-8314-98153e42fc05 a ns1:Order_line ;
+    ns1:hasPrice 2.6995e+04 ;
+    ns1:hasProductName "CELULAR SAMSUNG A35 256GB NEGRO 356EZKGGTO" ;
+    ns1:hasQuantity 3e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00044 ;
+    ns1:hasSubtotal 8.0985e+04 .
+
+ns1:Order_line_f41d9c51-f14d-4878-b297-dd02ed2b7759 a ns1:Order_line ;
+    ns1:hasPrice 6e+01 ;
+    ns1:hasProductName "pan sobao Buenhorno 10/1" ;
+    ns1:hasQuantity 3e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00039 ;
+    ns1:hasSubtotal 1.8e+02 .
+
+ns1:Order_line_fdd149a9-e157-421a-a73c-3b5b4512e4ec a ns1:Order_line ;
+    ns1:hasPrice 6.295e+03 ;
+    ns1:hasProductName "Licuadora Oster Cromada 3v Blst4655" ;
+    ns1:hasQuantity 3e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00014 ;
+    ns1:hasSubtotal 1.8885e+04 .
+
+ns1:Order_line_fe65cfa6-b48f-4187-97eb-037dde2240b4 a ns1:Order_line ;
+    ns1:hasPrice 2.4995e+04 ;
+    ns1:hasProductName "BATIDORA CUISINART PEDESTAL SM-50BC" ;
+    ns1:hasQuantity 1e+00 ;
+    ns1:hasSalesOrder ns1:Sales_order_S00019 ;
+    ns1:hasSubtotal 2.4995e+04 .
+
+ns1:Product_1 a ns1:Product ;
+    ns1:hasImage "C:/Users/User/Downloads/imgs/Meals.jpg" ;
+    ns1:hasProductName "Meals" .
+
+ns1:Product_10 a ns1:Product ;
+    ns1:hasImage "C:/Users/User/Downloads/imgs/Down_Payment_POS.jpg" ;
+    ns1:hasProductName "Down Payment (POS)" .
+
+ns1:Product_12 a ns1:Product ;
+    ns1:hasImage "C:/Users/User/Downloads/imgs/AUDIFONOS_ARGOM_BLUETOOTH_ARG-HS-2552B.jpg" ;
+    ns1:hasProductName "AUDIFONOS ARGOM BLUETOOTH ARG-HS-2552B" .
+
+ns1:Product_13 a ns1:Product ;
+    ns1:hasImage "C:/Users/User/Downloads/imgs/LAPTOP_LENOVO_14P_8GB_256GB_82YT00Q3US.jpg" ;
+    ns1:hasProductName "LAPTOP LENOVO 14P 8GB 256GB 82YT00Q3US" .
+
+ns1:Product_14 a ns1:Product ;
+    ns1:hasImage "C:/Users/User/Downloads/imgs/CELULAR_SAMSUNG_A35_256GB_NEGRO_356EZKGGTO.jpg" ;
+    ns1:hasProductName "CELULAR SAMSUNG A35 256GB NEGRO 356EZKGGTO" .
+
+ns1:Product_15 a ns1:Product ;
+    ns1:hasImage "C:/Users/User/Downloads/imgs/GALLETAS_DULCES_OREO_REGULAR_12_UND.jpg" ;
+    ns1:hasProductName "GALLETAS DULCES OREO REGULAR 12 UND" .
+
+ns1:Product_16 a ns1:Product ;
+    ns1:hasImage "C:/Users/User/Downloads/imgs/Refresco_coca_cola_clasica_25_lt.jpg" ;
+    ns1:hasProductName "Refresco coca cola clasica 2.5 lt" .
+
+ns1:Product_17 a ns1:Product ;
+    ns1:hasImage "C:/Users/User/Downloads/imgs/pan_sobao_Buenhorno_101.jpg" ;
+    ns1:hasProductName "pan sobao Buenhorno 10/1" .
+
+ns1:Product_18 a ns1:Product ;
+    ns1:hasImage "C:/Users/User/Downloads/imgs/Sandwichera_Nikkei_264124.jpg" ;
+    ns1:hasProductName "Sandwichera Nikkei 264124" .
+
+ns1:Product_19 a ns1:Product ;
+    ns1:hasImage "C:/Users/User/Downloads/imgs/Licuadora_Oster_Cromada_3v_Blst4655.jpg" ;
+    ns1:hasProductName "Licuadora Oster Cromada 3v Blst4655" .
+
+ns1:Product_2 a ns1:Product ;
+    ns1:hasImage "C:/Users/User/Downloads/imgs/Travel__Accommodation.jpg" ;
+    ns1:hasProductName "Travel & Accommodation" .
+
+ns1:Product_20 a ns1:Product ;
+    ns1:hasImage "C:/Users/User/Downloads/imgs/BATIDORA_CUISINART_PEDESTAL_SM-50BC.jpg" ;
+    ns1:hasProductName "BATIDORA CUISINART PEDESTAL SM-50BC" .
+
+ns1:Product_3 a ns1:Product ;
+    ns1:hasImage "C:/Users/User/Downloads/imgs/Mileage.jpg" ;
+    ns1:hasProductName "Mileage" .
+
+ns1:Product_4 a ns1:Product ;
+    ns1:hasImage "C:/Users/User/Downloads/imgs/Gifts.jpg" ;
+    ns1:hasProductName "Gifts" .
+
+ns1:Product_5 a ns1:Product ;
+    ns1:hasImage "C:/Users/User/Downloads/imgs/Communication.jpg" ;
+    ns1:hasProductName "Communication" .
+
+ns1:Product_6 a ns1:Product ;
+    ns1:hasImage "C:/Users/User/Downloads/imgs/Expenses.jpg" ;
+    ns1:hasProductName "Expenses" .
+
+ns1:Product_7 a ns1:Product ;
+    ns1:hasImage "C:/Users/User/Downloads/imgs/Standard_delivery.jpg" ;
+    ns1:hasProductName "Standard delivery" .
+
+ns1:Product_8 a ns1:Product ;
+    ns1:hasImage "C:/Users/User/Downloads/imgs/Event_Registration.jpg" ;
+    ns1:hasProductName "Event Registration" .
+
+ns1:Sales_order_S00002 a ns1:Sales_order ;
+    ns1:hasAmountTax 4.8591e+03 ;
+    ns1:hasAmountTotal 3.18541e+04 ;
+    ns1:hasAmountUntaxed 2.6995e+04 ;
+    ns1:hasContactName "Jordana Alphy" ;
+    ns1:hasCountryCode "AL" ;
+    ns1:hasDate "2025-01-28 20:50:46" ;
+    ns1:hasPartnerShipping "Harvard University" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00003 a ns1:Sales_order ;
+    ns1:hasAmountTax 4.1193e+03 ;
+    ns1:hasAmountTotal 2.70043e+04 ;
+    ns1:hasAmountUntaxed 2.2885e+04 ;
+    ns1:hasContactName "Lilianna Perez" ;
+    ns1:hasCountryCode "CR" ;
+    ns1:hasDate "2025-01-28 20:52:52" ;
+    ns1:hasPartnerShipping "Harvard University" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00005 a ns1:Sales_order ;
+    ns1:hasAmountTax 8.9775e+03 ;
+    ns1:hasAmountTotal 5.88525e+04 ;
+    ns1:hasAmountUntaxed 4.9875e+04 ;
+    ns1:hasContactName "Humberto Marcebo" ;
+    ns1:hasCountryCode "PE" ;
+    ns1:hasDate "2025-01-28 21:03:07" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00006 a ns1:Sales_order ;
+    ns1:hasAmountTax 0e+00 ;
+    ns1:hasAmountTotal 4.8e+02 ;
+    ns1:hasAmountUntaxed 4.8e+02 ;
+    ns1:hasContactName "Joshua Barom" ;
+    ns1:hasCountryCode "DO" ;
+    ns1:hasDate "2025-01-28 21:04:25" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00008 a ns1:Sales_order ;
+    ns1:hasAmountTax 0e+00 ;
+    ns1:hasAmountTotal 1.98e+02 ;
+    ns1:hasAmountUntaxed 1.98e+02 ;
+    ns1:hasContactName "Milena Garcia" ;
+    ns1:hasCountryCode "FR" ;
+    ns1:hasDate "2025-01-28 21:06:46" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00012 a ns1:Sales_order ;
+    ns1:hasAmountTax 0e+00 ;
+    ns1:hasAmountTotal 1.8e+03 ;
+    ns1:hasAmountUntaxed 1.8e+03 ;
+    ns1:hasContactName "Jordana Alphy" ;
+    ns1:hasCountryCode "AL" ;
+    ns1:hasDate "2025-01-28 21:11:39" ;
+    ns1:hasPartnerShipping "Harvard University" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00014 a ns1:Sales_order ;
+    ns1:hasAmountTax 3.3993e+03 ;
+    ns1:hasAmountTotal 2.22843e+04 ;
+    ns1:hasAmountUntaxed 1.8885e+04 ;
+    ns1:hasContactName "Kendry Murkan" ;
+    ns1:hasCountryCode "CA" ;
+    ns1:hasDate "2025-01-28 21:13:31" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00015 a ns1:Sales_order ;
+    ns1:hasAmountTax 0e+00 ;
+    ns1:hasAmountTotal 1.425e+03 ;
+    ns1:hasAmountUntaxed 1.425e+03 ;
+    ns1:hasContactName "Humberto Marcebo" ;
+    ns1:hasCountryCode "PE" ;
+    ns1:hasDate "2025-01-28 21:14:11" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00016 a ns1:Sales_order ;
+    ns1:hasAmountTax 2.2662e+04 ;
+    ns1:hasAmountTotal 1.48562e+05 ;
+    ns1:hasAmountUntaxed 1.259e+05 ;
+    ns1:hasContactName "Brandon Freeman" ;
+    ns1:hasCountryCode "US" ;
+    ns1:hasDate "2025-01-28 21:15:14" ;
+    ns1:hasPartnerShipping "Harvard University" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00017 a ns1:Sales_order ;
+    ns1:hasAmountTax 0e+00 ;
+    ns1:hasAmountTotal 2.376e+03 ;
+    ns1:hasAmountUntaxed 2.376e+03 ;
+    ns1:hasContactName "Jordana Alphy" ;
+    ns1:hasCountryCode "AL" ;
+    ns1:hasDate "2025-01-28 21:16:40" ;
+    ns1:hasPartnerShipping "Harvard University" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00019 a ns1:Sales_order ;
+    ns1:hasAmountTax 4.4991e+03 ;
+    ns1:hasAmountTotal 2.94941e+04 ;
+    ns1:hasAmountUntaxed 2.4995e+04 ;
+    ns1:hasContactName "Milena Garcia" ;
+    ns1:hasCountryCode "FR" ;
+    ns1:hasDate "2025-01-28 21:17:42" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00020 a ns1:Sales_order ;
+    ns1:hasAmountTax 0e+00 ;
+    ns1:hasAmountTotal 3e+02 ;
+    ns1:hasAmountUntaxed 3e+02 ;
+    ns1:hasContactName "Lilianna Perez" ;
+    ns1:hasCountryCode "CR" ;
+    ns1:hasDate "2025-01-28 21:18:04" ;
+    ns1:hasPartnerShipping "Harvard University" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00021 a ns1:Sales_order ;
+    ns1:hasAmountTax 0e+00 ;
+    ns1:hasAmountTotal 3.96e+02 ;
+    ns1:hasAmountUntaxed 3.96e+02 ;
+    ns1:hasContactName "Joshua Barom" ;
+    ns1:hasCountryCode "DO" ;
+    ns1:hasDate "2025-01-28 21:19:05" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00022 a ns1:Sales_order ;
+    ns1:hasAmountTax 5.3991e+03 ;
+    ns1:hasAmountTotal 3.53941e+04 ;
+    ns1:hasAmountUntaxed 2.9995e+04 ;
+    ns1:hasContactName "Lilianna Perez" ;
+    ns1:hasCountryCode "CR" ;
+    ns1:hasDate "2025-01-28 21:19:28" ;
+    ns1:hasPartnerShipping "Harvard University" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00023 a ns1:Sales_order ;
+    ns1:hasAmountTax 1.117593e+05 ;
+    ns1:hasAmountTotal 7.326443e+05 ;
+    ns1:hasAmountUntaxed 6.20885e+05 ;
+    ns1:hasContactName "Kendry Murkan" ;
+    ns1:hasCountryCode "CA" ;
+    ns1:hasDate "2025-01-28 21:20:11" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00024 a ns1:Sales_order ;
+    ns1:hasAmountTax 0e+00 ;
+    ns1:hasAmountTotal 1.188e+03 ;
+    ns1:hasAmountUntaxed 1.188e+03 ;
+    ns1:hasContactName "Jordana Alphy" ;
+    ns1:hasCountryCode "AL" ;
+    ns1:hasDate "2025-01-28 21:21:01" ;
+    ns1:hasPartnerShipping "Harvard University" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00026 a ns1:Sales_order ;
+    ns1:hasAmountTax 3.582e+02 ;
+    ns1:hasAmountTotal 2.3482e+03 ;
+    ns1:hasAmountUntaxed 1.99e+03 ;
+    ns1:hasContactName "Kendry Murkan" ;
+    ns1:hasCountryCode "CA" ;
+    ns1:hasDate "2025-01-28 21:23:08" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00028 a ns1:Sales_order ;
+    ns1:hasAmountTax 0e+00 ;
+    ns1:hasAmountTotal 7.92e+02 ;
+    ns1:hasAmountUntaxed 7.92e+02 ;
+    ns1:hasContactName "Kendry Murkan" ;
+    ns1:hasCountryCode "CA" ;
+    ns1:hasDate "2025-01-28 21:25:17" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00029 a ns1:Sales_order ;
+    ns1:hasAmountTax 1.1331e+03 ;
+    ns1:hasAmountTotal 7.4281e+03 ;
+    ns1:hasAmountUntaxed 6.295e+03 ;
+    ns1:hasContactName "Humberto Marcebo" ;
+    ns1:hasCountryCode "PE" ;
+    ns1:hasDate "2025-01-28 21:25:58" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00030 a ns1:Sales_order ;
+    ns1:hasAmountTax 0e+00 ;
+    ns1:hasAmountTotal 4.75e+02 ;
+    ns1:hasAmountUntaxed 4.75e+02 ;
+    ns1:hasContactName "Jordana Alphy" ;
+    ns1:hasCountryCode "AL" ;
+    ns1:hasDate "2025-01-28 21:27:35" ;
+    ns1:hasPartnerShipping "Harvard University" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00031 a ns1:Sales_order ;
+    ns1:hasAmountTax 1.7955e+03 ;
+    ns1:hasAmountTotal 1.17705e+04 ;
+    ns1:hasAmountUntaxed 9.975e+03 ;
+    ns1:hasContactName "Kendry Murkan" ;
+    ns1:hasCountryCode "CA" ;
+    ns1:hasDate "2025-01-28 21:28:10" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00032 a ns1:Sales_order ;
+    ns1:hasAmountTax 2.1546e+03 ;
+    ns1:hasAmountTotal 1.41246e+04 ;
+    ns1:hasAmountUntaxed 1.197e+04 ;
+    ns1:hasContactName "Joshua Barom" ;
+    ns1:hasCountryCode "DO" ;
+    ns1:hasDate "2025-01-28 21:28:50" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00033 a ns1:Sales_order ;
+    ns1:hasAmountTax 0e+00 ;
+    ns1:hasAmountTotal 1.386e+03 ;
+    ns1:hasAmountUntaxed 1.386e+03 ;
+    ns1:hasContactName "Milena Garcia" ;
+    ns1:hasCountryCode "FR" ;
+    ns1:hasDate "2025-01-28 21:29:20" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00034 a ns1:Sales_order ;
+    ns1:hasAmountTax 1.45773e+04 ;
+    ns1:hasAmountTotal 9.55623e+04 ;
+    ns1:hasAmountUntaxed 8.0985e+04 ;
+    ns1:hasContactName "Milena Garcia" ;
+    ns1:hasCountryCode "FR" ;
+    ns1:hasDate "2025-01-28 21:29:57" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00035 a ns1:Sales_order ;
+    ns1:hasAmountTax 1.94364e+04 ;
+    ns1:hasAmountTotal 1.274164e+05 ;
+    ns1:hasAmountUntaxed 1.0798e+05 ;
+    ns1:hasContactName "Mylan Ramos" ;
+    ns1:hasCountryCode "DO" ;
+    ns1:hasDate "2025-01-28 21:30:42" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00036 a ns1:Sales_order ;
+    ns1:hasAmountTax 5.6655e+03 ;
+    ns1:hasAmountTotal 3.71405e+04 ;
+    ns1:hasAmountUntaxed 3.1475e+04 ;
+    ns1:hasContactName "Mylan Ramos" ;
+    ns1:hasCountryCode "DO" ;
+    ns1:hasDate "2025-01-28 21:32:30" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00037 a ns1:Sales_order ;
+    ns1:hasAmountTax 1.45773e+04 ;
+    ns1:hasAmountTotal 9.55623e+04 ;
+    ns1:hasAmountUntaxed 8.0985e+04 ;
+    ns1:hasContactName "Brandon Freeman" ;
+    ns1:hasCountryCode "US" ;
+    ns1:hasDate "2025-01-28 21:32:55" ;
+    ns1:hasPartnerShipping "Harvard University" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00038 a ns1:Sales_order ;
+    ns1:hasAmountTax 0e+00 ;
+    ns1:hasAmountTotal 6e+01 ;
+    ns1:hasAmountUntaxed 6e+01 ;
+    ns1:hasContactName "Humberto Marcebo" ;
+    ns1:hasCountryCode "PE" ;
+    ns1:hasDate "2025-01-28 21:33:19" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00039 a ns1:Sales_order ;
+    ns1:hasAmountTax 0e+00 ;
+    ns1:hasAmountTotal 1.8e+02 ;
+    ns1:hasAmountUntaxed 1.8e+02 ;
+    ns1:hasContactName "Jordana Alphy" ;
+    ns1:hasCountryCode "AL" ;
+    ns1:hasDate "2025-01-28 21:33:59" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00040 a ns1:Sales_order ;
+    ns1:hasAmountTax 4.4991e+03 ;
+    ns1:hasAmountTotal 2.94941e+04 ;
+    ns1:hasAmountUntaxed 2.4995e+04 ;
+    ns1:hasContactName "Jordana Alphy" ;
+    ns1:hasCountryCode "AL" ;
+    ns1:hasDate "2025-01-28 21:34:15" ;
+    ns1:hasPartnerShipping "Harvard University" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00041 a ns1:Sales_order ;
+    ns1:hasAmountTax 0e+00 ;
+    ns1:hasAmountTotal 9.9e+02 ;
+    ns1:hasAmountUntaxed 9.9e+02 ;
+    ns1:hasContactName "Kendry Murkan" ;
+    ns1:hasCountryCode "CA" ;
+    ns1:hasDate "2025-01-28 21:34:52" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00042 a ns1:Sales_order ;
+    ns1:hasAmountTax 2.2662e+03 ;
+    ns1:hasAmountTotal 1.48562e+04 ;
+    ns1:hasAmountUntaxed 1.259e+04 ;
+    ns1:hasContactName "Kendry Murkan" ;
+    ns1:hasCountryCode "CA" ;
+    ns1:hasDate "2025-01-28 21:35:29" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00043 a ns1:Sales_order ;
+    ns1:hasAmountTax 0e+00 ;
+    ns1:hasAmountTotal 3.8e+02 ;
+    ns1:hasAmountUntaxed 3.8e+02 ;
+    ns1:hasContactName "Joshua Barom" ;
+    ns1:hasCountryCode "DO" ;
+    ns1:hasDate "2025-01-28 21:36:13" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00044 a ns1:Sales_order ;
+    ns1:hasAmountTax 1.45773e+04 ;
+    ns1:hasAmountTotal 9.55623e+04 ;
+    ns1:hasAmountUntaxed 8.0985e+04 ;
+    ns1:hasContactName "Humberto Marcebo" ;
+    ns1:hasCountryCode "PE" ;
+    ns1:hasDate "2025-01-28 21:36:41" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00045 a ns1:Sales_order ;
+    ns1:hasAmountTax 1.0773e+03 ;
+    ns1:hasAmountTotal 7.0623e+03 ;
+    ns1:hasAmountUntaxed 5.985e+03 ;
+    ns1:hasContactName "Joshua Barom" ;
+    ns1:hasCountryCode "DO" ;
+    ns1:hasDate "2025-01-28 21:37:11" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00046 a ns1:Sales_order ;
+    ns1:hasAmountTax 1.01979e+04 ;
+    ns1:hasAmountTotal 6.68529e+04 ;
+    ns1:hasAmountUntaxed 5.6655e+04 ;
+    ns1:hasContactName "Jordana Alphy" ;
+    ns1:hasCountryCode "AL" ;
+    ns1:hasDate "2025-01-28 21:37:40" ;
+    ns1:hasPartnerShipping "Harvard University" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00047 a ns1:Sales_order ;
+    ns1:hasAmountTax 4.8591e+03 ;
+    ns1:hasAmountTotal 3.18541e+04 ;
+    ns1:hasAmountUntaxed 2.6995e+04 ;
+    ns1:hasContactName "Humberto Marcebo" ;
+    ns1:hasCountryCode "PE" ;
+    ns1:hasDate "2025-01-28 21:38:08" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00051 a ns1:Sales_order ;
+    ns1:hasAmountTax 4.8591e+03 ;
+    ns1:hasAmountTotal 3.18541e+04 ;
+    ns1:hasAmountUntaxed 2.6995e+04 ;
+    ns1:hasContactName "Lilianna Perez" ;
+    ns1:hasCountryCode "CR" ;
+    ns1:hasDate "2025-01-29 00:23:15" ;
+    ns1:hasPartnerShipping "Harvard University" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00001 a ns1:Sales_order ;
+    ns1:hasAmountTax 2.69955e+04 ;
+    ns1:hasAmountTotal 1.769705e+05 ;
+    ns1:hasAmountUntaxed 1.49975e+05 ;
+    ns1:hasContactName "Harvard University" ;
+    ns1:hasCountryCode "" ;
+    ns1:hasDate "2025-01-28 20:43:09" ;
+    ns1:hasPartnerShipping "Harvard University" ;
+    ns1:hasState "draft" .
+
+ns1:Sales_order_S00007 a ns1:Sales_order ;
+    ns1:hasAmountTax 2.321613e+05 ;
+    ns1:hasAmountTotal 1.522936e+06 ;
+    ns1:hasAmountUntaxed 1.290775e+06 ;
+    ns1:hasContactName "Kendry Murkan" ;
+    ns1:hasCountryCode "CA" ;
+    ns1:hasDate "2025-01-28 21:05:36" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00010 a ns1:Sales_order ;
+    ns1:hasAmountTax 6.7986e+03 ;
+    ns1:hasAmountTotal 4.47586e+04 ;
+    ns1:hasAmountUntaxed 3.796e+04 ;
+    ns1:hasContactName "Brandon Freeman" ;
+    ns1:hasCountryCode "US" ;
+    ns1:hasDate "2025-01-28 21:08:11" ;
+    ns1:hasPartnerShipping "Harvard University" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00013 a ns1:Sales_order ;
+    ns1:hasAmountTax 1.05282e+05 ;
+    ns1:hasAmountTotal 6.90182e+05 ;
+    ns1:hasAmountUntaxed 5.849e+05 ;
+    ns1:hasContactName "Lilianna Perez" ;
+    ns1:hasCountryCode "CR" ;
+    ns1:hasDate "2025-01-28 21:12:41" ;
+    ns1:hasPartnerShipping "Harvard University" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00025 a ns1:Sales_order ;
+    ns1:hasAmountTax 1.83555e+04 ;
+    ns1:hasAmountTotal 1.203305e+05 ;
+    ns1:hasAmountUntaxed 1.01975e+05 ;
+    ns1:hasContactName "Humberto Marcebo" ;
+    ns1:hasCountryCode "PE" ;
+    ns1:hasDate "2025-01-28 21:21:57" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00027 a ns1:Sales_order ;
+    ns1:hasAmountTax 7.182e+02 ;
+    ns1:hasAmountTotal 5.5002e+03 ;
+    ns1:hasAmountUntaxed 4.782e+03 ;
+    ns1:hasContactName "Jordana Alphy" ;
+    ns1:hasCountryCode "AL" ;
+    ns1:hasDate "2025-01-28 21:24:20" ;
+    ns1:hasPartnerShipping "Harvard University" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00048 a ns1:Sales_order ;
+    ns1:hasAmountTax 9.8982e+03 ;
+    ns1:hasAmountTotal 6.48882e+04 ;
+    ns1:hasAmountUntaxed 5.499e+04 ;
+    ns1:hasContactName "Humberto Marcebo" ;
+    ns1:hasCountryCode "PE" ;
+    ns1:hasDate "2025-01-28 21:38:35" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00049 a ns1:Sales_order ;
+    ns1:hasAmountTax 4.8591e+03 ;
+    ns1:hasAmountTotal 3.20521e+04 ;
+    ns1:hasAmountUntaxed 2.7193e+04 ;
+    ns1:hasContactName "Jordana Alphy" ;
+    ns1:hasCountryCode "AL" ;
+    ns1:hasDate "2025-01-28 21:39:00" ;
+    ns1:hasPartnerShipping "Harvard University" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00050 a ns1:Sales_order ;
+    ns1:hasAmountTax 1.791e+02 ;
+    ns1:hasAmountTotal 1.4141e+03 ;
+    ns1:hasAmountUntaxed 1.235e+03 ;
+    ns1:hasContactName "Milena Garcia" ;
+    ns1:hasCountryCode "FR" ;
+    ns1:hasDate "2025-01-28 21:39:34" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00004 a ns1:Sales_order ;
+    ns1:hasAmountTax 5.0373e+03 ;
+    ns1:hasAmountTotal 3.30223e+04 ;
+    ns1:hasAmountUntaxed 2.7985e+04 ;
+    ns1:hasContactName "Lilianna Perez" ;
+    ns1:hasCountryCode "CR" ;
+    ns1:hasDate "2025-01-28 20:59:47" ;
+    ns1:hasPartnerShipping "Harvard University" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00009 a ns1:Sales_order ;
+    ns1:hasAmountTax 2.95137e+04 ;
+    ns1:hasAmountTotal 1.936767e+05 ;
+    ns1:hasAmountUntaxed 1.64163e+05 ;
+    ns1:hasContactName "Mylan Ramos" ;
+    ns1:hasCountryCode "DO" ;
+    ns1:hasDate "2025-01-28 21:07:27" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00011 a ns1:Sales_order ;
+    ns1:hasAmountTax 2.3751e+04 ;
+    ns1:hasAmountTotal 1.55701e+05 ;
+    ns1:hasAmountUntaxed 1.3195e+05 ;
+    ns1:hasContactName "Joshua Barom" ;
+    ns1:hasCountryCode "DO" ;
+    ns1:hasDate "2025-01-28 21:10:18" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
+ns1:Sales_order_S00018 a ns1:Sales_order ;
+    ns1:hasAmountTax 1.06173e+04 ;
+    ns1:hasAmountTotal 6.96023e+04 ;
+    ns1:hasAmountUntaxed 5.8985e+04 ;
+    ns1:hasContactName "Humberto Marcebo" ;
+    ns1:hasCountryCode "PE" ;
+    ns1:hasDate "2025-01-28 21:17:08" ;
+    ns1:hasPartnerShipping "Microsoft" ;
+    ns1:hasState "sale" .
+
