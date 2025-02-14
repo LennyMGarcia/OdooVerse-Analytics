@@ -61,7 +61,10 @@ This project integrates multiple tools to extract, analyze, and query Odoo data 
   ![PBI Product](https://github.com/LennyMGarcia/OdooVerse-Analytics/blob/main/Power%20BI%20Docs/Product_dashboard_1.png?raw=true)  
 
 - **Advanced Product Analysis in Power BI:** Detailed view with specific metrics on stock, categories, and product trends.  
-  ![PBI Product 2](https://github.com/LennyMGarcia/OdooVerse-Analytics/blob/main/Power%20BI%20Docs/product_dashboard_2.png?raw=true)  
+  ![PBI Product 2](https://github.com/LennyMGarcia/OdooVerse-Analytics/blob/main/Power%20BI%20Docs/product_dashboard_2.png?raw=true)
+
+- **OdooVerse Analytics PBI Model**  
+  ![PBI Product 2](https://github.com/LennyMGarcia/OdooVerse-Analytics/blob/main/Power%20BI%20Docs/OdooVerse-Analytics-PBI-Model.png?raw=true)
 
 ## 🔍 Detailed Analysis  
 To ensure efficient analysis, the system uses **Qdrant** and **GraphDB** to store and structure information extracted from Odoo.  
