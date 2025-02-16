@@ -1,0 +1,6 @@
+api:
+  base-url: http://localhost:8069/api
+  sales: http://localhost:8069/api/sales
+  crm: http://localhost:8069/api/crm
+  country: http://localhost:8069/api/country
+  products: http://localhost:8069/api/products

@@ -1,0 +1,16 @@
+name: odooverse-analytics-ml
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - scikit-learn
+  - numpy
+  - seaborn
+  - matplotlib
+  - requests
+  - pyyaml
+  - pip
+
+ 
