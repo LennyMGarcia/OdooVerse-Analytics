@@ -1,15 +1,16 @@
 # OdooVerse-Analytics ML
 
-Este proyecto implementa un sistema de recomendación de productos utilizando técnicas de filtrado colaborativo, como **KNN** y **SVD**, sobre datos obtenidos de Odoo. Está diseñado para analizar datos empresariales y mejorar la toma de decisiones mediante análisis avanzados.
+This project implements a product recommendation system using collaborative filtering techniques, such as **KNN** and **SVD**, on data obtained from Odoo. It is designed to analyze business data and enhance decision-making through advanced analytics.
 
-## 🚀 Características
-- **Exploración y limpieza de datos**: Se realiza un análisis exploratorio de datos (EDA) para identificar patrones y anomalías.
-- **Preprocesamiento**: Transformación de los datos, incluyendo escalado, codificación y tratamiento de valores nulos.
-- **Construcción de modelos**: Implementación de algoritmos de recomendación como **K-Nearest Neighbors (KNN)** y **Singular Value Decomposition (SVD)**.
-- **Evaluación de modelos**: Análisis de rendimiento con métricas como **MAE (Mean Absolute Error)** y validación cruzada.
-- **Selección de modelo final**: Elección del mejor modelo basado en su rendimiento y capacidad de generalización.
+## 🚀 Features
+- **Data exploration and cleaning**: An exploratory data analysis (EDA) is performed to identify patterns and anomalies.
+- **Preprocessing**: Data transformation, including scaling, encoding, and handling missing values.
+- **Model construction**: Implementation of recommendation algorithms such as **K-Nearest Neighbors (KNN)** and **Singular Value Decomposition (SVD)**.
+- **Model evaluation**: Performance analysis using metrics like **MAE (Mean Absolute Error)** and cross-validation.
+- **Final model selection**: Choosing the best model based on its performance and generalization ability.
 
-## 📂 Estructura del Proyecto
+
+## 📂 Project structure
 ```ruby
 /odooverse-analytics-ml
 │
