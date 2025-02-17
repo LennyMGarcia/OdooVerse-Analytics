@@ -1,0 +1,7 @@
+2025-02-16 20:20:13,321 - ERROR - This is a debug message
+2025-02-16 20:27:02,421 - ERROR - This is a debug message
+2025-02-16 20:27:33,111 - ERROR - This is a debug message
+2025-02-16 20:49:34,553 - ERROR - Error en knn_ndcg_at_k: list index out of range
+2025-02-16 20:49:34,553 - ERROR - Error en knn_ndcg_at_k: list index out of range
+2025-02-16 20:50:26,219 - ERROR - Error en knn_ndcg_at_k: list index out of range
+2025-02-16 20:50:26,219 - ERROR - Error en knn_ndcg_at_k: list index out of range

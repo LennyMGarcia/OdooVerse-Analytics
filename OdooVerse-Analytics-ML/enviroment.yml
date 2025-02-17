@@ -5,8 +5,8 @@ channels:
 dependencies:
   - python=3.9
   - pandas
-  - scikit-learn
-  - numpy
+  - scikit-learn==1.2.2  
+  - numpy==1.26  
   - seaborn
   - matplotlib
   - requests
