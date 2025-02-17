@@ -20,17 +20,21 @@ This project consists of three main components:
 
 - 📊 **Power BI**: For data analysis and visualization.  
 - 🏢 **Odoo**: ERP platform where business data is stored and managed.  
-- 🤖 **LLM**: Language model that enables natural language queries on data.  
+- 🤖 **LLM**: Language model that enables natural language queries on data.
+- 📓 **Jupyter** : For advanced analysis and data modeling..
 
 ### 🔄 Data Flow  
 This project integrates multiple tools to extract, analyze, and query Odoo data efficiently. The data flow follows these steps:  
 
-1. **Data Extraction**: Odoo provides structured data, which is sent to Power BI for visualization and to Qdrant and GraphDB for processing in the LLM.  
-2. **Analysis and Visualization**: Power BI transforms the data into interactive dashboards, facilitating visual analysis.  
+1. **Data Extraction**: Odoo provides structured data, which is sent to Power BI for visualization, to Qdrant and GraphDB for processing in the LLM, and to **Jupyter** for in-depth analysis.  
+2. **Analysis and Visualization**:  
+   - **Power BI** transforms the data into interactive dashboards, facilitating visual analysis.  
+   - **Jupyter** enables advanced statistical analysis, data exploration, and modeling.  
 3. **Intelligent Queries**:  
-   - The **LLM** allows natural language questions about the data.  
+   - **LLM** allows natural language questions about the data.  
    - **Qdrant** performs efficient searches in its vector database to retrieve relevant information.  
    - **GraphDB** acts as a Knowledge Graph, providing structured context and relationships between data.  
+
 
 ### 📷 **Integration Example:**  
 #### 📌 **Data in Odoo**  
@@ -67,6 +71,7 @@ This project integrates multiple tools to extract, analyze, and query Odoo data 
   ![PBI Product 2](https://github.com/LennyMGarcia/OdooVerse-Analytics/blob/main/Power%20BI%20Docs/OdooVerse-Analytics-PBI-Model.png?raw=true)
 
 ## 🔍 Detailed Analysis  
+#### LLM
 To ensure efficient analysis, the system uses **Qdrant** and **GraphDB** to store and structure information extracted from Odoo.  
 
 - **Qdrant** handles vector storage, enabling fast and efficient similarity-based searches.  
@@ -95,13 +100,32 @@ Below are examples of how queries are handled in **Qdrant** and the data hierarc
 *Representation of the data hierarchy in GraphDB, structuring information to enhance queries and analysis.*  
 ![graphDB Hierarchy](https://github.com/LennyMGarcia/OdooVerse-Analytics/blob/main/Power%20BI%20Docs/graphdb_hierarchy.png)
 
+#### Jupyter Notebooks  
+
+![jupyter notebooks](https://github.com/LennyMGarcia/OdooVerse-Analytics/blob/main/Power%20BI%20Docs/jupyter_notebooks.png)  
+
+The recommendation system implemented in this project is well-structured and leverages **collaborative filtering** techniques to provide accurate product recommendations to users. It utilizes:  
+
+- **K-Nearest Neighbors (KNN)**: Finds similar users or products based on interaction history, ensuring personalized recommendations.  
+- **Singular Value Decomposition (SVD)**: Reduces dimensionality and extracts latent features, improving recommendation accuracy even with sparse data.  
+
+This hybrid approach allows the system to adapt to different user behaviors, providing relevant suggestions based on past interactions. Jupyter notebooks are used for data preprocessing, model training, and evaluation, enabling an interactive and flexible workflow for refining recommendation strategies.
+ 
+It is structured as follows:  
+- [🔗 **Exploratory Data Analysis (EDA)**](https://github.com/LennyMGarcia/OdooVerse-Analytics/blob/main/OdooVerse-Analytics-ML/notebooks/01_EDA.ipynb) – Initial data exploration to understand distributions, correlations, and potential patterns.  
+- [🔗 **Preprocessing**](https://github.com/LennyMGarcia/OdooVerse-Analytics/blob/main/OdooVerse-Analytics-ML/notebooks/02_preprocessing.ipynb) – Data cleaning, feature engineering, and transformation to prepare for modeling.  
+- [🔗 **Model Construction**](https://github.com/LennyMGarcia/OdooVerse-Analytics/blob/main/OdooVerse-Analytics-ML/notebooks/03_basic_model.ipynb) – Implementation of collaborative filtering techniques like KNN and SVD.  
+- [🔗 **Model Evaluation**](https://github.com/LennyMGarcia/OdooVerse-Analytics/blob/main/OdooVerse-Analytics-ML/notebooks/04_model_evaluation.ipynb) – Performance assessment using metrics like MAE to ensure recommendation accuracy.  
+- [🔗 **Model Selection**](https://github.com/LennyMGarcia/OdooVerse-Analytics/blob/main/OdooVerse-Analytics-ML/notebooks/05_final_model.ipynb) – Choosing the best-performing model for deployment.  
+
 ## 🛠️ Prerequisites  
 To run this project correctly, make sure you have the following tools installed:  
 - 🔹 **Qdrant** – A vector search engine for embedding storage and retrieval. [🔗 Official site](https://qdrant.tech/)  
 - 🔹 **Power BI** – A data analytics and visualization platform. [🔗 Download](https://powerbi.microsoft.com/)  
 - 🔹 **GraphDB (Ontotext)** – A graph database for semantic storage. [🔗 Official site](https://www.ontotext.com/products/graphdb/)  
 - 🔹 **Python** (Recommended version: `>=3.X`) – For data processing and machine learning. [🔗 Download](https://www.python.org/)  
-- 🔹 **Odoo** (Recommended version: `16+`) – An ERP system for enterprise data management. [🔗 Official site](https://www.odoo.com/)  
+- 🔹 **Odoo** (Recommended version: `16+`) – An ERP system for enterprise data management. [🔗 Official site](https://www.odoo.com/)
+- 🔹 **Jupyter Notebook** – An interactive computing environment for data analysis and modeling. [🔗 Official site](https://jupyter.org/)    
 
 ## 🚀 Installation & Setup  
 1. **Clone the repository**  
